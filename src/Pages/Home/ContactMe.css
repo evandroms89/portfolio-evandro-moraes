@@ -80,7 +80,7 @@
   @media only screen and (max-width: 700px) {
     .contact--section {
       display: block;
-      padding: 50px 0px 50px 0px;
+      padding: 50px 0px 100px 0px;
     }
     .contact--form--text {
       text-align: center;
