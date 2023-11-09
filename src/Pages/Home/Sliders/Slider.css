@@ -1,10 +1,19 @@
 .slider{
-    border-right: 10px double var(--mediumLightColor);
-    width: 650px;
-    height:314.8px;
+    width: 100%;
     cursor: grab;
 }
 .slide--item {
-    width: 650px;
     object-fit: cover;
+    width: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+    .slider{
+        width: 100%;
+    }
+    .slide--item {
+        object-fit: cover;
+        width: 150%;
+    }
+    
 }

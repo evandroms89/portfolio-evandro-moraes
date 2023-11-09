@@ -1,15 +1,11 @@
 .portfolio--section {
-    display: flex;
+    display: block;
     padding: 70px 85px 90px 85px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 30px;
     background-color: var(--darkColor);
   }
   .portfolio--container-box {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: block;
+    padding-bottom: 30px;
     width: 100%;
   }
   .portfolio--section--heading{
@@ -20,6 +16,8 @@
   }
   .portfolio--section--container {
     display: grid;
+    margin: 0 auto;
+    width: 1000px;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     justify-content: center;
@@ -31,7 +29,6 @@
     width: 350px;
     height: 180px;
     cursor: pointer;
-    background-color: var(--superDarkColor);
     overflow: hidden;
     transition: all 0.2s;
     box-shadow: -2px -2px 8px 0px rgba(0, 0, 0, 0.2);
@@ -44,9 +41,7 @@
     width: 100%;
     opacity: 1;
     transition: all 0.2s;
-  }
-  .portfolio--section--card img:hover {
-    opacity: 1;
+    border-radius: 7px;
   }
   .portfolio--section--title {
     color: var(--darkColor);
@@ -55,15 +50,11 @@
     padding-top: 0px;
   }
   .portfolio--project--content {
-    display: flex;
-    justify-content: space-between;
-  }
-  .portfolio--project--top {
-    display: flex;
-    align-items: flex-start;
+    display: grid;
+    grid-template-columns: 62% 38%;
   }
   .portfolio--project--text {
-    padding-left: 22px;
+    padding-left: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -117,4 +108,67 @@
   }
   #MyPortfolio {
     z-index: 0;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .portfolio--section {
+      display: block;
+      padding: 50px 20px 140px 20px;
+    }
+    .portfolio--section--heading{
+      font-size: 40px;
+    }
+    .portfolio--section--container {
+      display: grid;
+      margin: 0 auto;
+      width: 100%;
+      grid-template-columns: 1fr;
+      align-items: center;
+      justify-content: center;
+      justify-items: center;
+      gap:20px;
+      z-index: 1;
+    }
+    .portfolio--section--card {
+      width: 100%;
+      height: 100%;
+      box-shadow: -2px -2px 8px 0px rgba(0, 0, 0, 0.0);
+    }
+    .portfolio--section--card img{
+      box-shadow: -2px -2px 8px 1px rgba(0, 0, 0, 0.8);
+    }
+    .portfolio--project--content {
+      display: block;
+    }
+    .portfolio--project--slider{
+      padding-bottom: 40px;
+    }
+    .portfolio--project--text {
+      padding:0px 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 314.8px;
+    }
+    .portfolio--project--title {
+      font-size: 26px;
+    }
+    .portfolio--project--description {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 30px;
+      padding-top: 15px;
+    }
+    .portfolio--project--description ul{
+      padding-left: 15px;
+    }
+    .portfolio--project--description ul li{
+      line-height: 10px;
+      font-size: 16px;
+    }
+    .portfolio--project--btns {
+      display: flex;
+      gap: 10px;
+      padding-top: 10px;
+    }
   }

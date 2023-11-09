@@ -5,9 +5,9 @@ export default function ContactMe() {
   return (
     <section id="Contact" className="contact--section">
       <form className="contact--form--container">
-        <div>
-          <h2 className="section--heading">Entre em contato</h2>
-          <p className="text-md">
+        <div className="contact--form--text">
+          <h2 className="contact--section--heading">Entre em contato</h2>
+          <p className="contact--section--description">
             Fique à vontade para me enviar uma mensagem, responderei o mais breve possível.
           </p>
         </div>
@@ -61,10 +61,10 @@ export default function ContactMe() {
         </div>
       </form>
       <div className="contact--icons">
-        <a href="">
+        <a href="https://www.linkedin.com/in/evandro-moraes/" target="_blank">
           < BsLinkedin />
         </a>
-        <a href="">
+        <a href="https://github.com/evandroms89" target="_blank">
           < BsGithub />
         </a>
       </div>

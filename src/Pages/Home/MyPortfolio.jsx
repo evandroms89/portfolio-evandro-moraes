@@ -112,7 +112,9 @@ export default function MyPortfolio() {
       <div id="portfolio--project">
         {newProject ?
           <div className="portfolio--project--content">
-            {projectId == 1 ? <AnimatedPage><Slider /></AnimatedPage> : projectId == 2 ? <AnimatedPage><Slider2 /></AnimatedPage> : projectId == 3 ? <AnimatedPage><Slider3 /></AnimatedPage> : projectId == 4 ?<AnimatedPage><Slider4 /></AnimatedPage> : projectId == 5 ? <AnimatedPage><Slider5 /></AnimatedPage> : projectId == 6 ? <AnimatedPage><Slider6 /></AnimatedPage> : ""}
+            <div className="portfolio--project--slider">
+              {projectId == 1 ? <AnimatedPage><Slider /></AnimatedPage> : projectId == 2 ? <AnimatedPage><Slider2 /></AnimatedPage> : projectId == 3 ? <AnimatedPage><Slider3 /></AnimatedPage> : projectId == 4 ?<AnimatedPage><Slider4 /></AnimatedPage> : projectId == 5 ? <AnimatedPage><Slider5 /></AnimatedPage> : projectId == 6 ? <AnimatedPage><Slider6 /></AnimatedPage> : ""}
+            </div>
             <AnimatedPage>
             <div className="portfolio--project--text">
               {data.projects.map((item,index) => (
