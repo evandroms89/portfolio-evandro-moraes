@@ -1,0 +1,120 @@
+.portfolio--section {
+    display: flex;
+    padding: 70px 85px 90px 85px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    background-color: var(--darkColor);
+  }
+  .portfolio--container-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .portfolio--section--heading{
+    color: var(--yellow);
+  }
+  .portfolio--section--heading span{
+    color: var(--halfLightColor);
+  }
+  .portfolio--section--container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    gap:7px;
+    z-index: 1;
+  }
+  .portfolio--section--card {
+    width: 350px;
+    height: 180px;
+    cursor: pointer;
+    background-color: var(--superDarkColor);
+    overflow: hidden;
+    transition: all 0.2s;
+    box-shadow: -2px -2px 8px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+  }
+  .portfolio--section--card:hover {
+    transform: scale(1.05);
+  }
+  .portfolio--section--card img{
+    width: 100%;
+    opacity: 1;
+    transition: all 0.2s;
+  }
+  .portfolio--section--card img:hover {
+    opacity: 1;
+  }
+  .portfolio--section--title {
+    color: var(--darkColor);
+  }
+  #portfolio--project {
+    padding-top: 0px;
+  }
+  .portfolio--project--content {
+    display: flex;
+    justify-content: space-between;
+  }
+  .portfolio--project--top {
+    display: flex;
+    align-items: flex-start;
+  }
+  .portfolio--project--text {
+    padding-left: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 314.8px;
+  }
+  .portfolio--project--title {
+    color: var(--yellow);
+    font-size: 22px;
+  }
+  .portfolio--project--description {
+    color: var(--halfLightColor);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 10px;
+  }
+  .portfolio--project--description ul{
+    padding-left: 15px;
+  }
+  .portfolio--project--description ul li{
+    line-height: 10px;
+    font-size: 14px;
+  }
+  .portfolio--project--btns {
+    display: flex;
+    gap: 10px;
+  }
+  .portfolio--project--btn-close {
+    color: var(--halfLightColor);
+    font-size: 30px;
+    line-height: 26px;
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+  .portfolio--project--btn-close:hover {
+    color: var(--yellow);
+  }
+  .portfolio--project--btn--site {
+    color: var(--halfLightColor);
+    font-size: 30px;
+    line-height: 26px;
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+  .portfolio--project--btn--site a{
+    color: var(--halfLightColor);
+    transition: all 0.5s;
+  }
+  .portfolio--project--btn--site a:hover{
+    color: var(--yellow);
+  }
+  #MyPortfolio {
+    z-index: 0;
+  }

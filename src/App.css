@@ -1,38 +1,221 @@
-.App {
+/* Global CSS */
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: "Roboto", sans-serif;
+  -moz-osx-font-smoothing: "Roboto", sans-serif;
+  font-style: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+:root {
+  --mediumColor: #858377;
+  --yellow: #ffdf65;
+  --mediumLightColor: #b0ac9e;
+  --halfLightColor: #e8e8db;
+  --halfDarkColor: #6f6d66;
+  --darkColor: #57554c;
+  --superDarkColor: #32322d;
+  --lightColor: #f6f6f3;
+}
+.btn {
+  font-family: "Roboto";
+  display: inline-block;
+  padding: 14px 32px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  cursor: pointer;
   text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: background-color 0.5s;
+  -webkit-transition: background-color 0.5s;
+  -moz-transition: background-color 0.5s;
+  -ms-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+}
+.btn-outline-primary {
+  color: var(--yellow);
+  background-color: var(--halfDarkColor);
+  border: 1.5px solid var(--halfDarkColor);
+}
+.btn-outline-primary:hover {
+  color: var(--halfDarkColor);
+  background-color: var(--yellow);
+}
+.btn-primary {
+  color: var(--halfDarkColor);
+  background-color: var(--yellow);
+  border: 1.5px solid var(--halfDarkColor);
+  z-index: 1;
+}
+.btn-primary:hover {
+  color: var(--yellow);
+  background-color: var(--halfDarkColor);
+}
+/* Global CSS Ends */
+
+
+/* Main Headings */
+/* Heading 1 */
+h1 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67px;
+}
+/* Heading 2 */
+h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+}
+/* Heading 3 */
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+}
+.section--heading {
+  color: var(--darkColor);
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Pragraphs text large medium small */
+/* Body 1 */
+.text-lg {
+  color: var(--halfDarkColor);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+/* Body 2 */
+.text-md {
+  color: var(--halfDarkColor);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+/* Body 3 */
+.text-sm {
+  color: var(--darkColor);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Section Titles */
+.section--title {
+  color: var(--mediumColor);
+  font-size: 21px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 10px;
   display: flex;
+  align-items: flex-start;
+}
+
+.sub--title {
+  color: var(--darkColor);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+/* Section Titles Ends */
+
+/* Responsive Screens */
+
+
+/* Hamburger menu  */
+
+.nav__hamburger {
+  display: none;
+  width: 1.875rem;
+  height: 1.313rem;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  position: absolute;
+  top: 25px;
+  right: 25px;
 }
 
-.App-link {
-  color: #61dafb;
+.nav__hamburger__line {
+  display: block;
+  height: 0.188rem;
+  width: 100%;
+  background-color: #000000;
+  border-radius: 0.625rem;
+  transition: all ease-in-out 0.2s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 1200px) {
+  .nav__hamburger {
+    display: flex;
+    z-index: 200;
   }
-  to {
-    transform: rotate(360deg);
+  .navbar--items {
+    display: flex;
+  }
+  .navbar--items {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255);
+    top: -20rem;
+    left: 0;
+    width: 100%;
+    transition: all ease-in-out 0.4s;
+  }
+  .navbar--items ul {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 3rem 0 0.6rem;
+    z-index: -100;
+  }
+  .navbar--items ul li {
+    text-align: center;
+  }
+  .navbar--items ul li a {
+    padding: 0.5rem;
+  }
+  .navbar--items {
+    z-index: -1000;
+  }
+  .navbar--items.active {
+    top: 30px;
+  }
+  .nav__hamburger.active :nth-child(1) {
+    transform: rotate(45deg) translate(0.45rem, 0.1875rem);
+  }
+
+  .nav__hamburger.active :nth-child(2) {
+    opacity: 0;
+  }
+
+  .nav__hamburger.active :nth-child(3) {
+    transform: rotate(-45deg) translate(0.45rem, -0.1875rem);
   }
 }
+
+/* Responsive Screens Ends*/

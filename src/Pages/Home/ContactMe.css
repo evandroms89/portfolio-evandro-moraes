@@ -1,0 +1,70 @@
+.contact--section {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 75% 25%;
+    padding: 70px 0px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--yellow);
+    gap:10px;
+  }
+  .contact--form--container {
+    display: grid;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+    row-gap: 22px;
+    border-right: 10px double var(--lightColor);
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 37% 63%;
+    column-gap: 20px;
+    width: 650px;
+  }
+  .contact--label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 11.5px;
+    flex: 1 0 0;
+    width: 100%;
+  }
+  .contact--input {
+    display: flex;
+    font-family: "Roboto";
+    text-align: center;
+    padding: 5px 0px;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1.5px solid var(--mediumColor);
+    background: var(--lightColor);
+  }
+  .contact--form--btn{
+    justify-self: end;
+  }
+  .contact--icons{
+    display: grid;
+    justify-content: start;
+    grid-template-rows: 1fr 1fr;
+    padding-left: 30px;
+    gap: 15px;
+    font-size: 40px;
+    color: var(--halfDarkColor);
+    transition: all 0.2s;
+  }
+
+  .contact--icons:hover {
+    color: var(--lightColor);
+  }
+
+  .contact--icons a{
+    text-decoration: none;
+    color: var(--halfDarkColor);
+    transition: all 0.2s;
+  }
+
+  .contact--icons a:hover {
+    color: var(--DarkColor)
+  }

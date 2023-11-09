@@ -1,0 +1,46 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "title": "Perfil GitHub",
+      "description": "Projeto desenvolvido como atividade do curso de Desenvolvimento Front-End da escola EBAC. Consiste em uma página que resgata dados da API do GitHub, trazendo informações sobre os repositórios e imagem de perfil do usuário.",
+      "tech": ["HTML / CSS", "JavaScript", "React"],
+      "link": "https://github-perfil-evandroms89.vercel.app/"
+    },
+    {
+      "id": "2",
+      "title": "Photo Studios",
+      "description": "Projeto desenvolvido como atividade do curso de Desenvolvimento Front-End da escola EBAC. Consiste em uma Landing Page para divulgar uma empresa fictícia de estúdios fotográficos.",
+      "tech": ["HTML", "CSS", "Bootstrap / Site Responsivo", "JavaScript"],
+      "link": "https://photostudios-projeto3.vercel.app/"
+    },
+    {
+      "id": "3",
+      "title": "Into The Wild - Landing Page",
+      "description": "Projeto desenvolvido como atividade do curso de Desenvolvimento Front-End da escola EBAC. Consiste em uma Landing Page sobre o filme Into The Wild, apresentando sua sinopse, elenco e trilha sonora.",
+      "tech": ["HTML", "SASS / CSS / Site Responsivo", "JavaScript", "Gulp"],
+      "link": "https://exercicio-landing-page-into-the-wild.vercel.app/"
+    },
+    {
+      "id": "4",
+      "title": "Tech Talks",
+      "description": "Projeto desenvolvido como atividade do curso de Desenvolvimento Front-End da escola EBAC. Consiste em uma Landing Page para divulgar um evento fictício de tecnologia, com uma contagem regressiva até a data e horário do evento.",
+      "tech":["HTML","SASS / CSS / Site Responsivo","JavaScript"],
+      "link": "https://ebac-tech-talks-topaz.vercel.app/"
+    },
+    {
+      "id": "5",
+      "title": "Secret Word",
+      "description": "Projeto desenvolvido no curso de React da escola Hora de Codar, pela plataforma Udemy. Consiste em um jogo de adivinhação de palavras, digitando letra por letra e contabilizando pontos.",
+      "tech":["HTML","CSS","React"],
+      "link": "https://exercicio-landing-page-into-the-wild.vercel.app/"
+    },
+    {
+      "id": "6",
+      "title": "Portfolio - Evandro Moraes / Dev",
+      "description": "Este portfolio que você está navegando também foi um projeto desenvolvido por mim :). Minha ideia foi manter o padrão de Landing Page, com navegação simples, intuitiva e agradável para uma apresentação objetiva do meu trabalho.",
+      "tech":["HTML / CSS", "JavaScript", "React"],
+      "link": "https://exercicio-landing-page-into-the-wild.vercel.app/"
+    }
+  ]
+}

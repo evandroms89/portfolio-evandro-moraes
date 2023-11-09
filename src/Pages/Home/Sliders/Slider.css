@@ -1,0 +1,10 @@
+.slider{
+    border-right: 10px double var(--mediumLightColor);
+    width: 650px;
+    height:314.8px;
+    cursor: grab;
+}
+.slide--item {
+    width: 650px;
+    object-fit: cover;
+}
