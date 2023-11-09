@@ -39,3 +39,26 @@
     font-weight: 400;
     line-height: 26px;
   }
+
+  @media only screen and (max-width: 700px) {
+    .about--section {
+      padding: 40px 0px 0px 0px;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      grid-template-columns: 1fr;
+    }
+    .about--section--heading {
+      font-size: 40px;
+    }
+    .about--section--box {
+      padding: 20px 40px;
+      padding-bottom: 70px;
+      z-index: 1;
+      border: none;
+    }
+    .about--section-description {
+      font-size: 18px;
+      line-height: 30px;
+    }
+  }
