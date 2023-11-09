@@ -73,36 +73,60 @@ export default function MyPortfolio() {
       <div className="portfolio--section--container">
             <Link
               onClick={showNewProject1}
+              smooth={true}
+              offset={-45}
+              duration={100}
+              to="MyPortfolio"
               className="portfolio--section--card"
             >
               <img src="img/projects/project1-cover.jpg" alt="capa projeto" />
             </Link>
             <Link
               onClick={showNewProject2}
+              smooth={true}
+              offset={-45}
+              duration={100}
+              to="MyPortfolio"
               className="portfolio--section--card"
             >
                 <img src="img/projects/project2-cover.jpg" alt="capa projeto" />
             </Link>
             <Link
               onClick={showNewProject3}
+              smooth={true}
+              offset={-45}
+              duration={100}
+              to="MyPortfolio"
               className="portfolio--section--card"
             >
                 <img src="img/projects/project3-cover.jpg" alt="capa projeto" />
             </Link>
             <Link
               onClick={showNewProject4}
+              smooth={true}
+              offset={-45}
+              duration={100}
+              to="MyPortfolio"
               className="portfolio--section--card"
             >
                 <img src="img/projects/project4-cover.jpg" alt="capa projeto" />
             </Link>
             <Link
               onClick={showNewProject5}
+              smooth={true}
+              offset={-45}
+              duration={100}
+              to="MyPortfolio"
               className="portfolio--section--card"
             >
                 <img src="img/projects/project5-cover.jpg" alt="capa projeto" />
             </Link>
             <Link
               onClick={showNewProject6}
+              smooth={true}
+              offset={-45}
+              duration={100}
+              to="MyPortfolio"
               className="portfolio--section--card"
             >
               <img src="img/projects/project1-cover.jpg" alt="capa projeto" />
