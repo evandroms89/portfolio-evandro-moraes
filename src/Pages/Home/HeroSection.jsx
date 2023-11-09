@@ -30,7 +30,7 @@ export default function HeroSection() {
     <section id="heroSection" className="hero--section">
       <div className="hero--section--content-box">
         <div className="hero--section--content">
-          <p className="hero--section-description">Olá, meu nome é Evandro Moraes</p>
+          <p className="hero--section-description">Seja bem vindo&#40;a&#41; ao meu portfolio de</p>
           <h1 className="hero--section--title">
             Desenvolvedor
             <br />
@@ -38,11 +38,14 @@ export default function HeroSection() {
           </h1>
           <TypeAnimation
             sequence={[
-              // Same substring at the start will only be typed out once, initially
-              'Primeira linha de texto, testando',
-              5000,
-              'Segunda linha de texto, testando',
-              5000
+              'Desenvolvido com HTML',
+              2000,
+              'Desenvolvido com CSS',
+              2000,
+              'Desenvolvido com JavaScript',
+              2000,
+              'Desenvolvido com React',
+              2000
             ]}
             wrapper="span"
             speed={30}
