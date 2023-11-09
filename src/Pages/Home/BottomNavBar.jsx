@@ -38,6 +38,14 @@ function BottomNavBar() {
                         >
                         <BsSquareFill />
                         </Link>
+                        <Link
+                        smooth={true}
+                        offset={-60}
+                        duration={500}
+                        to="Contact"
+                        >
+                        <BsSquareFill />
+                        </Link>
         </div>
     )
 }
