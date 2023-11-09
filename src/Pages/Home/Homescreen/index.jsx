@@ -1,4 +1,5 @@
 import AboutMe from "../AboutMe";
+import BottomNavBar from "../BottomNavBar";
 import ContactMe from "../ContactMe";
 import Footer from "../Footer";
 import HeroSection from "../HeroSection";
@@ -14,6 +15,7 @@ export default function Home() {
       <MyPortfolio />
       <ContactMe />
       <Footer />
+      <BottomNavBar />
     </>
   );
 }
