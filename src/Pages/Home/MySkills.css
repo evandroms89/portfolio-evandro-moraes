@@ -35,7 +35,7 @@
   }
   .skills--section--card:hover {
     transform: translateY(-10px);
-    border: 2px solid rgba(255, 223, 101, 1) ;
+    border: 2px solid rgba(255, 223, 101, 1);
     background-color: rgba(62, 62, 60, 0.2);
   }
   .skills--section--img {
@@ -95,4 +95,22 @@
       text-align: left;
     }
 
+    .skills--section--title {
+      font-size: 26px;
+    }
+
+    .skills--section--description {
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+    }
+    .skills--section--card {
+      background-color: rgba(62, 62, 60, 0.2);
+    }
+    .skills--section--card:hover {
+      transform: translateY(0px);
+      border: 2px solid rgba(255, 223, 101, 1);
+      background-color: rgba(62, 62, 60, 0.2);
+    }
   }
