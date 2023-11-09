@@ -109,7 +109,7 @@ function Navbar() {
         offset={-60}
         duration={500}
         to="Contact"
-        className="btn btn-outline-primary"
+        className="btn btn-outline-primary navbar-btn"
       >
         Contato
       </Link>
