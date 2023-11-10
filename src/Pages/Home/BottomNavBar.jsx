@@ -1,7 +1,11 @@
 import "./BottomNavBar.css"
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
-import{BsSquareFill} from "react-icons/bs"
+import{BsSquareFill, BsFillPersonFill} from "react-icons/bs"
+import{AiFillHome} from "react-icons/ai"
+import{GiSkills} from "react-icons/gi"
+import{HiMiniComputerDesktop} from "react-icons/hi2"
+import{BiSolidMessageAltDetail} from "react-icons/bi"
 
 function BottomNavBar() {
     return (
@@ -12,7 +16,7 @@ function BottomNavBar() {
                         duration={500}
                         to="heroSection"
                         >
-                        <BsSquareFill />
+                        <AiFillHome />
                         </Link>
                         <Link
                         smooth={true}
@@ -20,7 +24,7 @@ function BottomNavBar() {
                         duration={500}
                         to="mySkills"
                         >
-                        <BsSquareFill />
+                        <GiSkills />
                         </Link>
                         <Link
                         smooth={true}
@@ -28,7 +32,7 @@ function BottomNavBar() {
                         duration={500}
                         to="AboutMe"
                         >
-                        <BsSquareFill />
+                        <BsFillPersonFill />
                         </Link>
                         <Link
                         smooth={true}
@@ -36,7 +40,7 @@ function BottomNavBar() {
                         duration={500}
                         to="MyPortfolio"
                         >
-                        <BsSquareFill />
+                        <HiMiniComputerDesktop />
                         </Link>
                         <Link
                         smooth={true}
@@ -44,7 +48,7 @@ function BottomNavBar() {
                         duration={500}
                         to="Contact"
                         >
-                        <BsSquareFill />
+                        <BiSolidMessageAltDetail />
                         </Link>
         </div>
     )
