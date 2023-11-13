@@ -15,6 +15,7 @@ function BottomNavBar() {
                         offset={-40}
                         duration={500}
                         to="heroSection"
+                        className="bottom-navbar--content"
                         >
                         <AiFillHome />
                         </Link>
@@ -23,6 +24,7 @@ function BottomNavBar() {
                         offset={-60}
                         duration={500}
                         to="mySkills"
+                        className="bottom-navbar--content"
                         >
                         <GiSkills />
                         </Link>
@@ -31,6 +33,7 @@ function BottomNavBar() {
                         offset={-80}
                         duration={500}
                         to="AboutMe"
+                        className="bottom-navbar--content"
                         >
                         <BsFillPersonFill />
                         </Link>
@@ -39,6 +42,7 @@ function BottomNavBar() {
                         offset={-45}
                         duration={500}
                         to="MyPortfolio"
+                        className="bottom-navbar--content"
                         >
                         <HiMiniComputerDesktop />
                         </Link>
@@ -47,6 +51,7 @@ function BottomNavBar() {
                         offset={-60}
                         duration={500}
                         to="Contact"
+                        className="bottom-navbar--content"
                         >
                         <BiSolidMessageAltDetail />
                         </Link>
