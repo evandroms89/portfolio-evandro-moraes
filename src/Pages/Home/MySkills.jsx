@@ -43,6 +43,7 @@ export default function MySkills() {
                 <span>&lt;</span> inDesign <span>&gt; &lt;/inDesign &gt;</span><br></br>
                 <span>&lt;</span> premiere <span>&gt; &lt;/premiere &gt;</span><br></br>
                 <span>&lt;</span> figma <span>&gt; &lt;/figma &gt;</span><br></br>
+                <br></br>
               </p>
             </div>
           </div>

@@ -14,7 +14,7 @@
   }
   .contact--section--description {
     color: var(--halfDarkColor);
-    font-size: 16px;
+    font-size: 18px;
   }
   .contact--form--container {
     display: grid;

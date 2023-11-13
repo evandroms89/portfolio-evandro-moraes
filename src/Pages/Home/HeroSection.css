@@ -24,14 +24,14 @@
 
   .hero--section--title {
     color: var(--darkColor);
-    font-size: 64px;
+    font-size: 74px;
     font-weight: 700;
-    line-height: 70px;
+    line-height: 80px;
     align-self:stretch;
   }
   .hero--section-description {
     color: var(--mediumColor);
-    font-size: 22px;
+    font-size: 26px;
     font-weight: 400;
     line-height: 20px;
   }
