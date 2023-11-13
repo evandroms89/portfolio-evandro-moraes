@@ -1,6 +1,6 @@
 .portfolio--section {
     display: block;
-    padding: 70px 85px 90px 85px;
+    padding: 100px 85px 140px 85px;
     background-color: var(--darkColor);
     min-height: 550px;
   }
@@ -18,7 +18,7 @@
   .portfolio--section--container {
     display: grid;
     margin: 0 auto;
-    width: 1200px;
+    width: 1250px;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     justify-content: center;

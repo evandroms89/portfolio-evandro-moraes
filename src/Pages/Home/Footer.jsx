@@ -5,7 +5,6 @@ import React from "react";
 function Footer() {
   return (
     <footer className="footer--container">
-      <div className="footer--link--container">
         <div className="footer--items">
           <ul>
             <li>
@@ -75,7 +74,6 @@ function Footer() {
             </li>
           </ul>
         </div>
-      </div>
     </footer>
   );
 }

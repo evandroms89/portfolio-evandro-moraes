@@ -1,12 +1,11 @@
 .contact--section {
     display: grid;
     width: 100%;
-    grid-template-columns: 75% 25%;
-    padding: 70px 0px;
+    grid-template-columns: 73% 27%;
+    padding: 70px 0px 70px 0px;
     align-items: center;
     justify-content: center;
     background-color: var(--yellow);
-    gap:10px;
   }
   .contact--section--heading {
     color: var(--darkColor);
@@ -15,6 +14,7 @@
   .contact--section--description {
     color: var(--halfDarkColor);
     font-size: 18px;
+    padding-bottom: 40px;
   }
   .contact--form--container {
     display: grid;

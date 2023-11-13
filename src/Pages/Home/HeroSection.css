@@ -1,7 +1,7 @@
 .hero--section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 140px 0px 35px 0px;
+    padding: 140px 0px 55px 0px;
     align-items: center;
     justify-content: space-between;
     gap: 0px;
