@@ -33,14 +33,14 @@
       "title": "Secret Word",
       "description": "Projeto desenvolvido no curso de React da escola Hora de Codar, pela plataforma Udemy. Consiste em um jogo de adivinhação de palavras, digitando letra por letra e contabilizando pontos.",
       "tech":["HTML","CSS","React"],
-      "link": "https://exercicio-landing-page-into-the-wild.vercel.app/"
+      "link": "https://secret-word-game-sand.vercel.app/"
     },
     {
       "id": "6",
       "title": "Portfolio - Evandro Moraes / Dev",
       "description": "Este portfolio que você está navegando também foi um projeto desenvolvido por mim :). Minha ideia foi manter o padrão de Landing Page, com navegação simples, intuitiva e agradável para uma apresentação objetiva do meu trabalho.",
       "tech":["HTML / CSS", "JavaScript", "React"],
-      "link": "https://exercicio-landing-page-into-the-wild.vercel.app/"
+      "link": "https://portfolio-evandro-moraes.vercel.app/"
     }
   ]
 }
