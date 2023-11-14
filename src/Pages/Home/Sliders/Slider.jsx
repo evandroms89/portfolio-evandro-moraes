@@ -11,7 +11,6 @@ import {EffectCoverflow} from "swiper/modules";
 
 export default function Slider() {
     const imgs = [
-        {id: '1', image: 'img/projects/project1-1.jpg'},
         {id: '2', image: 'img/projects/project1-2.jpg'},
         {id: '3', image: 'img/projects/project1-3.jpg'},
     ]

@@ -14,7 +14,6 @@ export default function Slider6() {
         {id: '1', image: 'img/projects/project6-1.jpg'},
         {id: '2', image: 'img/projects/project6-2.jpg'},
         {id: '3', image: 'img/projects/project6-3.jpg'},
-        {id: '4', image: 'img/projects/project6-4.jpg'},
     ]
     return (
         <div className="slider">

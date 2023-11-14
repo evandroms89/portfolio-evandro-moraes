@@ -129,7 +129,7 @@ export default function MyPortfolio() {
               to="MyPortfolio"
               className="portfolio--section--card"
             >
-              <img src="img/projects/project1-cover.jpg" alt="capa projeto" />
+              <img src="img/projects/project6-cover.jpg" alt="capa projeto" />
             </Link>
       </div>
       </AnimatedPage>}

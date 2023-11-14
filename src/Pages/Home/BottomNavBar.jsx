@@ -12,7 +12,7 @@ function BottomNavBar() {
         <div className="bottom-nav-bar">
                         <Link
                         smooth={true}
-                        offset={-40}
+                        offset={-30}
                         duration={500}
                         to="heroSection"
                         className="bottom-navbar--content"
@@ -21,7 +21,7 @@ function BottomNavBar() {
                         </Link>
                         <Link
                         smooth={true}
-                        offset={-60}
+                        offset={-30}
                         duration={500}
                         to="mySkills"
                         className="bottom-navbar--content"
@@ -30,7 +30,7 @@ function BottomNavBar() {
                         </Link>
                         <Link
                         smooth={true}
-                        offset={-80}
+                        offset={-50}
                         duration={500}
                         to="AboutMe"
                         className="bottom-navbar--content"
@@ -39,7 +39,7 @@ function BottomNavBar() {
                         </Link>
                         <Link
                         smooth={true}
-                        offset={-45}
+                        offset={-30}
                         duration={500}
                         to="MyPortfolio"
                         className="bottom-navbar--content"
@@ -48,7 +48,7 @@ function BottomNavBar() {
                         </Link>
                         <Link
                         smooth={true}
-                        offset={-60}
+                        offset={-30}
                         duration={500}
                         to="Contact"
                         className="bottom-navbar--content"

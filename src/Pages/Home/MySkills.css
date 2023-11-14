@@ -97,14 +97,14 @@
     }
 
     .skills--section--title {
-      font-size: 26px;
+      font-size: 25px;
     }
 
     .skills--section--description {
-      font-size: 20px;
+      font-size: 19px;
       font-style: normal;
       font-weight: 400;
-      line-height: 24px;
+      line-height: 26px;
     }
     .skills--section--card {
       background-color: rgba(62, 62, 60, 0.2);
