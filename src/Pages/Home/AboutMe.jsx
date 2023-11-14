@@ -3,18 +3,18 @@ import { useEffect } from "react";
 
 export default function AboutMe() {
 
-  useEffect(() => {
-    var options = {
-      animate: true,
-      patternWidth: 700,
-      patternHeight: 700,
-      grainOpacity: 0.1,
-      grainDensity: 1,
-      grainWidth: 1,
-      grainHeight: 1
-    };
-    grained("#AboutMe", options);
-  }, [])
+  // useEffect(() => {
+  //   var options = {
+  //     animate: true,
+  //     patternWidth: 700,
+  //     patternHeight: 700,
+  //     grainOpacity: 0.1,
+  //     grainDensity: 1,
+  //     grainWidth: 1,
+  //     grainHeight: 1
+  //   };
+  //   grained("#AboutMe", options);
+  // }, [])
 
   return (
     <section id="AboutMe" className="about--section">

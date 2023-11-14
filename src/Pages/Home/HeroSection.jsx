@@ -13,18 +13,18 @@ export default function HeroSection() {
     animationData: computerAnimation
   }
 
-  useEffect(() => {
-    var options = {
-      animate: true,
-      patternWidth: 700,
-      patternHeight: 700,
-      grainOpacity: 0.1,
-      grainDensity: 1,
-      grainWidth: 1,
-      grainHeight: 1
-    };
-    grained("#heroSection", options);
-  }, [])
+  // useEffect(() => {
+  //   var options = {
+  //     animate: true,
+  //     patternWidth: 700,
+  //     patternHeight: 700,
+  //     grainOpacity: 0.1,
+  //     grainDensity: 1,
+  //     grainWidth: 1,
+  //     grainHeight: 1
+  //   };
+  //   grained("#heroSection", options);
+  // }, [])
 
   return (
     <section id="heroSection" className="hero--section">
