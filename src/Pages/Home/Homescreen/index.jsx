@@ -1,3 +1,4 @@
+import { useState } from "react";
 import AboutMe from "../AboutMe";
 import BottomNavBar from "../BottomNavBar";
 import ContactMe from "../ContactMe";
@@ -7,6 +8,7 @@ import MyPortfolio from "../MyPortfolio";
 import MySkills from "../MySkills";
 
 export default function Home() {
+  const [removeLoading, setRemoveLoading] = useState(false);
   return (
     <>
       <HeroSection />
