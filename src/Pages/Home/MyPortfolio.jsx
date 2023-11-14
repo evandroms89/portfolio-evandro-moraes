@@ -74,7 +74,7 @@ export default function MyPortfolio() {
             <Link
               onClick={showNewProject1}
               smooth={true}
-              offset={-45}
+              offset={-20}
               duration={100}
               to="MyPortfolio"
               className="portfolio--section--card"
@@ -82,19 +82,9 @@ export default function MyPortfolio() {
               <img src="img/projects/project1-cover.jpg" alt="capa projeto" />
             </Link>
             <Link
-              onClick={showNewProject2}
-              smooth={true}
-              offset={-45}
-              duration={100}
-              to="MyPortfolio"
-              className="portfolio--section--card"
-            >
-                <img src="img/projects/project2-cover.jpg" alt="capa projeto" />
-            </Link>
-            <Link
               onClick={showNewProject3}
               smooth={true}
-              offset={-45}
+              offset={-20}
               duration={100}
               to="MyPortfolio"
               className="portfolio--section--card"
@@ -104,7 +94,7 @@ export default function MyPortfolio() {
             <Link
               onClick={showNewProject4}
               smooth={true}
-              offset={-45}
+              offset={-20}
               duration={100}
               to="MyPortfolio"
               className="portfolio--section--card"
@@ -112,9 +102,19 @@ export default function MyPortfolio() {
                 <img src="img/projects/project4-cover.jpg" alt="capa projeto" />
             </Link>
             <Link
+              onClick={showNewProject2}
+              smooth={true}
+              offset={-20}
+              duration={100}
+              to="MyPortfolio"
+              className="portfolio--section--card"
+            >
+                <img src="img/projects/project2-cover.jpg" alt="capa projeto" />
+            </Link>
+            <Link
               onClick={showNewProject5}
               smooth={true}
-              offset={-45}
+              offset={-20}
               duration={100}
               to="MyPortfolio"
               className="portfolio--section--card"
@@ -124,7 +124,7 @@ export default function MyPortfolio() {
             <Link
               onClick={showNewProject6}
               smooth={true}
-              offset={-45}
+              offset={-20}
               duration={100}
               to="MyPortfolio"
               className="portfolio--section--card"
@@ -146,7 +146,7 @@ export default function MyPortfolio() {
                   <div key={index} className="portfolio--project--title">
                   {item.title}
                   <div key={index} className="portfolio--project--description">
-                    {item.description}
+                    <div className="portfolio--project--description--top">{item.description}</div>
                     {item.tech.map((item, index) => (
                       <ul>
                         <li key={index}>{item}</li>
@@ -160,19 +160,19 @@ export default function MyPortfolio() {
                   <Link
                         onClick={closeNewProject}
                         smooth={true}
-                        offset={-45}
+                        offset={-20}
                         duration={100}
                         to="MyPortfolio"
                         className="portfolio--project--btn-close"
                   >
-                    <BsFillArrowLeftSquareFill />
+                    <BsFillArrowLeftSquareFill /><br></br><span>voltar para projetos</span>
                   </Link>
                 </div>
                 {data.projects.map((item,index) => (
                   item.id == projectId &&
                     <div key={index} className="portfolio--project--btn--site">
                       <a href={item.link} target="_blank">
-                        <BsFillArrowUpRightSquareFill />
+                        <BsFillArrowUpRightSquareFill /><br></br><span>abrir projeto</span>
                       </a>
                     </div>
                 ))}

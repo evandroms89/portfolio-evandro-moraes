@@ -1,6 +1,6 @@
 .portfolio--section {
     display: block;
-    padding: 100px 85px 140px 85px;
+    padding: 100px 0px 140px 0px;
     background-color: var(--darkColor);
     min-height: 550px;
   }
@@ -10,6 +10,7 @@
     width: 100%;
   }
   .portfolio--section--heading{
+    padding-left: 85px;
     color: var(--yellow);
   }
   .portfolio--section--heading span{
@@ -18,29 +19,30 @@
   .portfolio--section--container {
     display: grid;
     margin: 0 auto;
-    width: 1250px;
+    width: 100%;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     justify-content: center;
     justify-items: center;
-    gap:15px;
+    gap:0px;
     z-index: 1;
   }
   .portfolio--section--card {
+    width: 100%;
+    height: 100%;
     cursor: pointer;
     overflow: hidden;
-    transition: all 0.2s;
-    box-shadow: -2px -2px 8px 0px rgba(0, 0, 0, 0.2);
-    border-radius: 7px;
-  }
-  .portfolio--section--card:hover {
-    transform: scale(1.05);
+    transition: all 1.5s;
+    box-shadow: -2px -2px 8px 0px rgba(0, 0, 0, 0.0);
   }
   .portfolio--section--card img{
     width: 100%;
+    height: 100%;
     opacity: 1;
-    transition: all 0.2s;
-    border-radius: 7px;
+    transition: all 1.5s;
+  }
+  .portfolio--section--card img:hover{
+    transform: scale(1.1);
   }
   .portfolio--section--title {
     color: var(--darkColor);
@@ -54,6 +56,8 @@
   }
   .portfolio--project--text {
     padding-left: 30px;
+    padding-right: 80px;
+    text-align: justify;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -67,8 +71,11 @@
     color: var(--halfLightColor);
     font-size: 20px;
     font-weight: 400;
-    line-height: 30px;
-    padding-top: 14px;
+    line-height: 32px;
+    padding-top: 18px;
+  }
+  .portfolio--project--description--top{
+    padding-bottom: 15px;
   }
   .portfolio--project--description ul{
     padding-left: 15px;
@@ -79,14 +86,18 @@
   }
   .portfolio--project--btns {
     display: flex;
-    gap: 15px;
+    width: 100%;
+    justify-content: space-between;
     padding-top: 10px;
-    padding-bottom: 5px;
+  }
+  .portfolio--project--btns span{
+    font-size: 16px;
+    color: var(--mediumLightColor);
   }
   .portfolio--project--btn-close {
     color: var(--halfLightColor);
     font-size: 34px;
-    line-height: 26px;
+    line-height: 18px;
     cursor: pointer;
     transition: all 0.5s;
   }
@@ -96,13 +107,15 @@
   .portfolio--project--btn--site {
     color: var(--halfLightColor);
     font-size: 34px;
-    line-height: 26px;
+    line-height: 24px;
     cursor: pointer;
     transition: all 0.5s;
+    text-align: right;
   }
   .portfolio--project--btn--site a{
     color: var(--halfLightColor);
     transition: all 0.5s;
+    text-decoration: none;
   }
   .portfolio--project--btn--site a:hover{
     color: var(--yellow);
@@ -114,34 +127,38 @@
   @media only screen and (max-width: 700px) {
     .portfolio--section {
       display: block;
-      padding: 50px 20px 170px 20px;
+      padding: 50px 0px 0px 0px;
     }
     .portfolio--section--heading{
       font-size: 40px;
+      padding-left: 20px;
     }
     .portfolio--section--container {
       display: grid;
       margin: 0 auto;
-      width: 90%;
+      width: 100%;
       grid-template-columns: 1fr 1fr;
       align-items: center;
       justify-content: center;
       justify-items: center;
-      gap:8px;
+      gap:0px;
       z-index: 1;
     }
     .portfolio--section--card {
-      width: 165px;
-      height: 165px;
+      width: 100%;
+      height: 180px;
       box-shadow: -2px -2px 8px 0px rgba(0, 0, 0, 0.0);
-      border-radius: 5px;
+      border-radius: 0px;
     }
     .portfolio--section--card img{
-      box-shadow: -2px -2px 8px 1px rgba(0, 0, 0, 0.8);
-      border-radius: 5px;
+      box-shadow: -2px -2px 8px 1px rgba(0, 0, 0, 0.0);
+      border-radius: 0px;
       width: auto;
       height: 100%;
-      margin-left: -73px;
+      margin-left: -70px;
+    }
+    .portfolio--section--card img:hover{
+      transform: scale(1);
     }
     .portfolio--project--content {
       display: block;
@@ -153,11 +170,10 @@
       padding-bottom: 40px;
     }
     .portfolio--project--text {
-      padding:0px 20px;
+      padding:0px 30px 40px 30px;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      height: 314.8px;
     }
     .portfolio--project--title {
       font-size: 26px;
@@ -177,7 +193,9 @@
     }
     .portfolio--project--btns {
       display: flex;
-      gap: 10px;
-      padding-top: 10px;
+      padding-top: 30px;
+    }
+    .portfolio--project--btns span{
+      font-size: 14px;
     }
   }

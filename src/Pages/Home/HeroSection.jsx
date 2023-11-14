@@ -56,7 +56,7 @@ export default function HeroSection() {
         <Link
               activeClass="navbar--active-content"
               smooth={true}
-              offset={-45}
+              offset={-20}
               duration={500}
               to="MyPortfolio"
               className="btn hero--section-btn-primary"

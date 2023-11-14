@@ -92,7 +92,7 @@ function Navbar() {
               onClick={closeMenu}
               activeClass="navbar--active-content"
               smooth={true}
-              offset={-45}
+              offset={-20}
               duration={500}
               to="MyPortfolio"
               className="navbar--content"
