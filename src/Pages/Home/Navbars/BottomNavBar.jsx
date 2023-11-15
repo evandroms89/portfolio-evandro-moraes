@@ -14,7 +14,7 @@ function BottomNavBar() {
                         activeClass="navbar--active-content"
                         spy={true}
                         smooth={true}
-                        offset={-30}
+                        offset={-100}
                         duration={500}
                         to="heroSection"
                         className="bottom-navbar--content"
@@ -25,7 +25,7 @@ function BottomNavBar() {
                         activeClass="navbar--active-content"
                         spy={true}
                         smooth={true}
-                        offset={-30}
+                        offset={10}
                         duration={500}
                         to="mySkills"
                         className="bottom-navbar--content"
@@ -36,7 +36,7 @@ function BottomNavBar() {
                         activeClass="navbar--active-content"
                         spy={true}
                         smooth={true}
-                        offset={-30}
+                        offset={10}
                         duration={500}
                         to="AboutMe"
                         className="bottom-navbar--content"
@@ -47,7 +47,7 @@ function BottomNavBar() {
                         activeClass="navbar--active-content"
                         spy={true}
                         smooth={true}
-                        offset={-20}
+                        offset={70}
                         duration={500}
                         to="MyPortfolio"
                         className="bottom-navbar--content"
@@ -58,7 +58,7 @@ function BottomNavBar() {
                         activeClass="navbar--active-content"
                         spy={true}
                         smooth={true}
-                        offset={-30}
+                        offset={60}
                         duration={500}
                         to="Contact"
                         className="bottom-navbar--content"
