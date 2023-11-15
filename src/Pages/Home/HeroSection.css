@@ -43,9 +43,14 @@
   .hero--section-description span{
     color: var(--pink);
   }
+  .hero--section--part2 {
+    border-left: 4px double var(--mediumColor);
+  }
 
   .hero--section--animation {
-    border-left: 4px double var(--mediumColor);
+    display: block;
+    margin: 0 auto;
+    width: 70%;
   }
 
   .hero--section-btn-primary {
@@ -94,9 +99,14 @@
       color: var(--blue);
     }
 
+    .hero--section--part2 {
+      border: none;
+    }
+
     .hero--section--animation {
       display: block;
-      border: none;
+      border-top: 1.5px solid var(--mediumColor);
+      padding: 60px 0px 50px 0px;
     }
 
     .hero--section-btn-primary{

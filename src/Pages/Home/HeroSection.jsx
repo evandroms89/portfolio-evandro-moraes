@@ -2,14 +2,14 @@ import "./HeroSection.css";
 import { Link } from "react-scroll";
 import { TypeAnimation } from 'react-type-animation';
 import Lottie from 'react-lottie';
-import computerAnimation from '../../assets/LottieJson/computerAnimation.json';
+import techCircle from '../../assets/LottieJson/techCircle.json';
 
 export default function HeroSection() {
 
   const defaultOptions = {
     loop: true,
     autoplay: true,
-    animationData: computerAnimation
+    animationData: techCircle
   }
 
   return (
@@ -50,8 +50,10 @@ export default function HeroSection() {
               Meus Projetos
             </Link>
       </div>
-      <div className="hero--section--animation">
-        <Lottie options={defaultOptions} />
+      <div className="hero--section--part2">
+        <div className="hero--section--animation">
+          <Lottie options={defaultOptions} />
+        </div>
       </div>
     </section>
   );
