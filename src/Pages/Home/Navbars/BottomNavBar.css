@@ -23,7 +23,7 @@
         border-top: 1.5px solid var(--mediumColor);
     }
     .bottom-navbar--content:hover {
-        color: var(--yellow);
+        color: var(--mediumColor);
     } 
     .navbar--active-content {
         color: var(--yellow);
