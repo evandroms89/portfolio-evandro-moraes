@@ -18,9 +18,11 @@ p {
 
 :root {
   --mediumColor: #838f94;
-  --blue: #70b7d6;
-  --darkBlue: #3d758d;
+  --red: #c77546;
+  --blue: #a6cfe1;
+  --darkBlue: #2666cb;
   --yellow: #d4c99c;
+  --pink: #c57991;
   --mediumLightColor: #b5b5b5;
   --halfLightColor: #eeece2;
   --halfDarkColor: #525458;

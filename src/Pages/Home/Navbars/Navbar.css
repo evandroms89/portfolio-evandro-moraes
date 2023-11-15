@@ -22,14 +22,17 @@
   }
   .navbar--items ul > li > a {
     text-decoration: none;
+    transition: all 0.2s;
+    border-bottom: 3.5px solid var(--darkColor);
   }
 
   .navbar--items ul > li > a:hover {
-    border-bottom: 3.5px solid var(--yellow);
+    color: var(--lightColor);
+    border-bottom: 3px solid var(--yellow);
   }
 
   .navbar--content {
-    color: var(--lightColor);
+    color: var(--blue);
     font-size: 21px;
     font-style: normal;
     font-weight: 400;

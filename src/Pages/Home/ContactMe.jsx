@@ -6,7 +6,7 @@ export default function ContactMe() {
     <section id="Contact" className="contact--section">
       <form className="contact--form--container">
         <div className="contact--form--text">
-          <h2 className="contact--section--heading">Entre em contato</h2>
+          <h2 className="contact--section--heading"><span>&#91;</span> entre-em-contato <span>&#93;</span></h2>
           <p className="contact--section--description">
             Fique à vontade para me enviar uma mensagem, responderei o mais breve possível.
           </p>

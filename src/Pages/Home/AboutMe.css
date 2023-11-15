@@ -9,12 +9,10 @@
     background-color: var(--yellow);
   }
   .about--section--heading {
-    color: var(--darkColor);
+    color: var(--red);
     font-size: 50px;
   }
-  .about--section--heading span {
-    color: var(--mediumLightColor);
-  }
+  
   .about--section--img{
     display: block;
     margin: 0 auto;

@@ -5,12 +5,12 @@ export default function MySkills() {
   return (
     <section className="skills--section" id="mySkills">
       <div>
-        <h2 className="skills--section--heading"><span>./</span>habilidades</h2>
+        <h2 className="skills--section--heading"><span>#</span>habilidades</h2>
       </div>
       <div className="skills--section--container">
           <div className="skills--section--card">
             <div className="skills--section--card--content">
-              <h3 className="skills--section--title">/Front-End</h3>
+              <h3 className="skills--section--title"><span>&#91;</span> Front-End <span>&#93;</span></h3>
               <p className="skills--section--description">
                 <span>&lt;</span> html <span>&gt; &lt;/html &gt;</span><br></br>
                 <span>&lt;</span> css <span>&gt; &lt;/css &gt;</span><br></br>
@@ -23,7 +23,7 @@ export default function MySkills() {
           </div>
           <div className="skills--section--card">
             <div className="skills--section--card--content">
-              <h3 className="skills--section--title">/Integração_Back-End</h3>
+              <h3 className="skills--section--title"><span>&#91;</span> Integração_Back-End <span>&#93;</span></h3>
               <p className="skills--section--description">
                 <span>&lt;</span> nodejs <span>&gt; &lt;/nodejs &gt;</span><br></br>
                 <span>&lt;</span> git <span>&gt; &lt;/git &gt;</span><br></br>
@@ -36,7 +36,7 @@ export default function MySkills() {
           </div>
           <div className="skills--section--card">
             <div className="skills--section--card--content">
-              <h3 className="skills--section--title">/Design</h3>
+              <h3 className="skills--section--title"><span>&#91;</span> Design <span>&#93;</span></h3>
               <p className="skills--section--description">
                 <span>&lt;</span> photoshop <span>&gt; &lt;/photoshop &gt;</span><br></br>
                 <span>&lt;</span> illustrator <span>&gt; &lt;/illustrator &gt;</span><br></br>

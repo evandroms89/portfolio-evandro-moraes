@@ -13,7 +13,7 @@
     color: var(--yellow);
   }
   .portfolio--section--heading span{
-    color: var(--mediumColor);
+    color: var(--blue);
   }
   .portfolio--section--container {
     display: grid;
@@ -23,7 +23,7 @@
     align-items: center;
     justify-content: center;
     justify-items: center;
-    gap:0px;
+    gap:1.5px;
   }
   .portfolio--section--card {
     width: 100%;
@@ -31,15 +31,19 @@
     cursor: pointer;
     overflow: hidden;
     box-shadow: -2px -2px 8px 0px rgba(0, 0, 0, 0.0);
+    border: 1.5px solid var(--yellow);
+    transition: all 0.3s;
   }
   .portfolio--section--card img{
     width: 100%;
     height: 100%;
     opacity: 1;
-    transition: all 0.7s;
+    filter: saturate(0);
+    transition: all 0.3s;
   }
   .portfolio--section--card img:hover{
-    transform: scale(1.07);
+    transform: scale(1.04);
+    filter: saturate(1);
   }
   .portfolio--section--title {
     color: var(--darkColor);
@@ -67,7 +71,7 @@
     height: 90%;
   }
   .portfolio--project--title {
-    color: var(--halfDarkColor);
+    color: var(--red);
     font-size: 30px;
     font-weight: bold;
     background-color: var(--halfLightColor);
@@ -101,7 +105,7 @@
   }
   .portfolio--project--btns span{
     font-size: 0.95rem;
-    color: var(--mediumColor);
+    color: var(--halfDarkColor);
   }
   .portfolio--project--btn-close {
     color: var(--halfDarkColor);
@@ -111,7 +115,7 @@
     transition: all 0.2s;
   }
   .portfolio--project--btn-close:hover {
-    color: var(--darkColor);
+    color: var(--red);
   }
   .portfolio--project--btn--site {
     color: var(--halfDarkColor);
@@ -127,7 +131,7 @@
     text-decoration: none;
   }
   .portfolio--project--btn--site a:hover{
-    color: var(--darkColor);
+    color: var(--red);
   }
   #MyPortfolio {
     z-index: 0;

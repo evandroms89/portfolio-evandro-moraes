@@ -15,8 +15,12 @@
     font-size: 50px;
   }
 
+  .contact--section--heading span {
+    color: var(--pink);
+  }
+
   .contact--section--description {
-    color: var(--mediumColor);
+    color: var(--blue);
     font-size: 18px;
     padding-bottom: 40px;
   }

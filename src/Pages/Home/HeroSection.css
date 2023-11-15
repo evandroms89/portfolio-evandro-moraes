@@ -34,10 +34,14 @@
   }
 
   .hero--section-description {
-    color: var(--halfLightColor);
+    color: var(--blue);
     font-size: 24px;
     font-weight: 400;
     line-height: 20px;
+  }
+
+  .hero--section-description span{
+    color: var(--pink);
   }
 
   .hero--section--animation {
@@ -84,10 +88,10 @@
     }
 
     .hero--section-description{
-      width: 220px;
+      width: 230px;
       padding: 12px 0px;
-      line-height: 30px;
-      color: var(--mediumColor);
+      line-height: 2rem;
+      color: var(--blue);
     }
 
     .hero--section--animation {

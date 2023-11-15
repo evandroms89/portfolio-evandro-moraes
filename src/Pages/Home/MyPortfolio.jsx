@@ -66,7 +66,7 @@ export default function MyPortfolio() {
   return (
     <section className="portfolio--section" id="MyPortfolio">
       <div className="portfolio--container-box">
-          <h2 className="portfolio--section--heading"><span>./</span>projetos</h2>
+          <h2 className="portfolio--section--heading">projetos<span>&#40;&#41;</span></h2>
       </div>
       {portfolioContainer &&
       <AnimatedPage>

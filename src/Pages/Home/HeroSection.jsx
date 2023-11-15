@@ -16,7 +16,7 @@ export default function HeroSection() {
     <section id="heroSection" className="hero--section">
       <div className="hero--section--content-box">
         <div className="hero--section--content">
-          <p className="hero--section-description">Seja bem vindo&#40;a&#41; ao meu portfolio de</p>
+          <p className="hero--section-description"><span>&#123;</span> Seja bem vindo&#40;a&#41; ao meu portfolio de <span>&#125;</span></p>
           <h1 className="hero--section--title">
             Desenvolvedor
             <br />
@@ -24,18 +24,18 @@ export default function HeroSection() {
           </h1>
           <TypeAnimation
             sequence={[
-              'Desenvolvido com HTML',
+              '"Desenvolvido com HTML"',
               2000,
-              'Desenvolvido com CSS',
+              '"Desenvolvido com CSS"',
               2000,
-              'Desenvolvido com JavaScript',
+              '"Desenvolvido com JavaScript"',
               2000,
-              'Desenvolvido com React',
+              '"Desenvolvido com React"',
               2000
             ]}
             wrapper="span"
             speed={25}
-            style={{ fontSize: '24px', display: 'inline-block', color: '#838f94' }}
+            style={{ fontSize: '24px', display: 'inline-block', color: '#c77546' }}
             repeat={Infinity}
           />
         </div>
