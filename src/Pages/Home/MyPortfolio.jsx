@@ -165,14 +165,14 @@ export default function MyPortfolio() {
                         to="MyPortfolio"
                         className="portfolio--project--btn-close"
                   >
-                    <BsFillArrowLeftSquareFill /><br></br><span>voltar para projetos</span>
+                    <BsFillArrowLeftSquareFill /><br></br><span>voltar</span>
                   </Link>
                 </div>
                 {data.projects.map((item,index) => (
                   item.id == projectId &&
                     <div key={index} className="portfolio--project--btn--site">
                       <a href={item.link} target="_blank">
-                        <BsFillArrowUpRightSquareFill /><br></br><span>abrir projeto</span>
+                        <BsFillArrowUpRightSquareFill /><br></br><span>abrir</span>
                       </a>
                     </div>
                 ))}

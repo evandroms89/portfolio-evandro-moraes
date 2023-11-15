@@ -13,7 +13,7 @@
     color: var(--yellow);
   }
   .portfolio--section--heading span{
-    color: var(--halfLightColor);
+    color: var(--mediumColor);
   }
   .portfolio--section--container {
     display: grid;
@@ -24,8 +24,6 @@
     justify-content: center;
     justify-items: center;
     gap:0px;
-    z-index: 1;
-    border-bottom: 10px double var(--mediumLightColor);
   }
   .portfolio--section--card {
     width: 100%;
@@ -48,76 +46,88 @@
   }
   #portfolio--project {
     padding-top: 0px;
+    background-color: var(--yellow);
   }
   .portfolio--project--content {
     display: grid;
     grid-template-columns: 62% 38%;
   }
+  .portfolio--project--slider{
+    padding-top: 14px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+  }
   .portfolio--project--text {
     padding-left: 30px;
-    padding-right: 60px;
+    padding-right: 40px;
     text-align: justify;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%;
+    height: 90%;
   }
   .portfolio--project--title {
-    color: var(--yellow);
+    color: var(--halfDarkColor);
     font-size: 30px;
+    font-weight: bold;
+    background-color: var(--halfLightColor);
+    margin-top: 14px;
+    padding: 10px 30px 0px 30px
   }
   .portfolio--project--description {
-    color: var(--halfLightColor);
-    font-size: 20px;
+    color: var(--halfDarkColor);
+    font-size: 1.2rem;
     font-weight: 400;
-    line-height: 32px;
-    padding-top: 18px;
+    line-height: 2.1rem;
+    padding-top: 0.8rem;
   }
   .portfolio--project--description--top{
-    padding-bottom: 15px;
+    padding-bottom: 1rem;
   }
   .portfolio--project--description ul{
-    padding-left: 15px;
+    padding-left: 1rem;
+    color: var(--halfDarkColor);
   }
   .portfolio--project--description ul li{
     line-height: 12px;
-    font-size: 18px;
+    font-size: 1.1rem;
   }
   .portfolio--project--btns {
     display: flex;
-    width: 100%;
+    width: 92%;
     justify-content: space-between;
-    padding-top: 10px;
+    align-self: center;
+    padding: 15px 0px 0px 0px;
   }
   .portfolio--project--btns span{
-    font-size: 16px;
-    color: var(--mediumLightColor);
+    font-size: 0.95rem;
+    color: var(--mediumColor);
   }
   .portfolio--project--btn-close {
-    color: var(--halfLightColor);
-    font-size: 34px;
-    line-height: 18px;
+    color: var(--halfDarkColor);
+    font-size: 2rem;
+    line-height: 0.5rem;
     cursor: pointer;
-    transition: all 0.5s;
+    transition: all 0.2s;
   }
   .portfolio--project--btn-close:hover {
-    color: var(--yellow);
+    color: var(--darkColor);
   }
   .portfolio--project--btn--site {
-    color: var(--halfLightColor);
-    font-size: 34px;
-    line-height: 24px;
+    color: var(--halfDarkColor);
+    font-size: 2rem;
+    line-height: 1rem;
     cursor: pointer;
     transition: all 0.5s;
     text-align: right;
   }
   .portfolio--project--btn--site a{
-    color: var(--halfLightColor);
-    transition: all 0.5s;
+    color: var(--halfDarkColor);
+    transition: all 0.2s;
     text-decoration: none;
   }
   .portfolio--project--btn--site a:hover{
-    color: var(--yellow);
+    color: var(--darkColor);
   }
   #MyPortfolio {
     z-index: 0;

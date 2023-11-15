@@ -17,14 +17,16 @@ p {
 }
 
 :root {
-  --mediumColor: #999999;
-  --yellow: #ffe88e;
+  --mediumColor: #838f94;
+  --blue: #70b7d6;
+  --darkBlue: #3d758d;
+  --yellow: #F7E987;
   --mediumLightColor: #b5b5b5;
-  --halfLightColor: #FFF4CC;
-  --halfDarkColor: #808080;
-  --darkColor: #5c5c5c;
-  --superDarkColor: #414141;
-  --lightColor: #FFF4CC;
+  --halfLightColor: #eeece2;
+  --halfDarkColor: #525458;
+  --darkColor: #353538;
+  --superDarkColor: #282829;
+  --lightColor: #faf9f5;
 }
 
 .btn {
@@ -53,26 +55,25 @@ p {
 
 .btn-outline-primary {
   color: var(--yellow);
-  background-color: var(--halfDarkColor);
-  border: 1.5px solid var(--halfDarkColor);
-  z-index: 1;
+  background-color: var(--darkColor);
+  border: 1.5px solid var(--mediumColor);
 }
 
 .btn-outline-primary:hover {
-  color: var(--halfDarkColor);
+  color: var(--darkColor);
   background-color: var(--yellow);
 }
 
 .btn-primary {
-  color: var(--halfDarkColor);
+  color: var(--darkColor);
   background-color: var(--yellow);
   border: 1.5px solid var(--halfDarkColor);
-  z-index: 1;
 }
 
 .btn-primary:hover {
   color: var(--yellow);
-  background-color: var(--halfDarkColor);
+  background-color: var(--darkColor);
+  border: 1.5px solid var(--mediumColor);
 }
 
 h1 {
@@ -108,11 +109,11 @@ h3 {
 }
 
 .text-md {
-  color: var(--halfDarkColor);
-  font-size: 16px;
+  color: var(--mediumColor);
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
 }
 
 .text-sm {

@@ -1,11 +1,12 @@
 .hero--section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 140px 0px 55px 0px;
+    padding: 140px 0px 80px 0px;
     align-items: center;
     justify-content: space-between;
     gap: 0px;
-    background-color: var(--halfLightColor);
+    background-color: var(--darkColor);
+    border-bottom: 2px solid var(--mediumColor);
   }
 
   .hero--section--content-box {
@@ -25,7 +26,7 @@
   }
 
   .hero--section--title {
-    color: var(--darkColor);
+    color: var(--yellow);
     font-size: 74px;
     font-weight: 700;
     line-height: 80px;
@@ -33,18 +34,18 @@
   }
 
   .hero--section-description {
-    color: var(--mediumColor);
+    color: var(--halfLightColor);
     font-size: 24px;
     font-weight: 400;
     line-height: 20px;
   }
 
   .hero--section--animation {
-    border-left: 10px double var(--lightColor);
+    border-left: 10px double var(--mediumColor);
   }
 
   .hero--section-btn-primary {
-    color: var(--halfDarkColor);
+    color: var(--darkColor);
     background-color: var(--yellow);
     border: 1.5px solid var(--halfDarkColor);
     z-index: 1;
@@ -52,7 +53,8 @@
 
   .hero--section-btn-primary:hover {
     color: var(--yellow);
-    background-color: var(--halfDarkColor);
+    background-color: var(--darkColor);
+    border: 1.5px solid var(--mediumColor);
   }
 
   @media only screen and (max-width: 700px) {

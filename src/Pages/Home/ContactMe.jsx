@@ -17,7 +17,7 @@ export default function ContactMe() {
               <span className="text-md">Nome</span>
               <input
                 type="text"
-                className="contact--input text-md"
+                className="contact--input"
                 name="first-name"
                 id="first-name"
                 required
@@ -27,7 +27,7 @@ export default function ContactMe() {
               <span className="text-md">Email</span>
               <input
                 type="email"
-                className="contact--input text-md"
+                className="contact--input"
                 name="email"
                 id="email"
                 required
@@ -37,7 +37,7 @@ export default function ContactMe() {
               <span className="text-md">Telefone</span>
               <input
                 type="number"
-                className="contact--input text-md"
+                className="contact--input"
                 name="phone-number"
                 id="phone-number"
                 required
@@ -48,7 +48,7 @@ export default function ContactMe() {
           <label htmlFor="message" className="contact--label">
             <span className="text-md">Mensagem</span>
             <textarea
-              className="contact--input text-md"
+              className="contact--input"
               id="message"
               rows="7"
               placeholder="Digite sua mensagem..."

@@ -18,13 +18,13 @@
       "id": "3",
       "title": "Into The Wild - Landing Page",
       "description": "Projeto desenvolvido como atividade do curso de Desenvolvimento Front-End da escola EBAC. Consiste em uma Landing Page sobre o filme Into The Wild, apresentando sua sinopse, elenco e trilha sonora.",
-      "tech": ["HTML", "SASS / CSS / Responsivo", "JavaScript", "Gulp"],
+      "tech": ["HTML", "SASS / CSS / Responsivo", "JavaScript / Gulp"],
       "link": "https://exercicio-landing-page-into-the-wild.vercel.app/"
     },
     {
       "id": "4",
       "title": "Tech Talks",
-      "description": "Projeto desenvolvido como atividade do curso de Desenvolvimento Front-End da escola EBAC. Consiste em uma Landing Page para divulgar um evento fictício de tecnologia, com uma contagem regressiva até a data e horário do evento.",
+      "description": "Projeto desenvolvido como atividade do curso de Desenvolvimento Front-End da escola EBAC. Consiste em uma Landing Page para divulgar um evento fictício de tecnologia, com uma contagem regressiva até a data do mesmo.",
       "tech":["HTML","SASS / CSS / Responsivo","JavaScript"],
       "link": "https://ebac-tech-talks-topaz.vercel.app/"
     },
@@ -37,7 +37,7 @@
     },
     {
       "id": "6",
-      "title": "Portfolio - Evandro Moraes / Dev",
+      "title": "Portfolio - Evandro Moraes",
       "description": "Este portfolio que você está navegando também foi um projeto desenvolvido por mim. Minha ideia foi manter o padrão de Landing Page, com navegação simples, intuitiva e agradável para uma apresentação objetiva do meu trabalho.",
       "tech":["HTML / CSS / Responsivo", "JavaScript", "React"],
       "link": "https://portfolio-evandro-moraes.vercel.app/"

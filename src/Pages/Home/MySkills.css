@@ -4,7 +4,8 @@
     flex-direction: column;
     justify-content: center;
     gap: 30px;
-    background-color: var(--halfDarkColor);
+    background-color: var(--darkColor);
+    border-bottom: 2px solid var(--mediumColor);
   }
 
   .skills--section--heading {
@@ -12,7 +13,7 @@
   }
 
   .skills--section--heading span {
-    color: var(--halfLightColor);
+    color: var(--mediumColor);
   }
 
   .skills--section--container {
@@ -31,8 +32,8 @@
     gap: 20px;
     flex: 1 0 0;
     border-radius: 10px;
-    border: 2px solid rgba(232, 232, 219, 0.5) ;
-    background-color: rgba(232, 232, 219, 0.1);
+    border: 2px solid var(--mediumColor);
+    background-color: var(--halfDarkColor);
     min-height: 250px;
     transition: transform 0.2s;
     z-index: 1;
@@ -40,8 +41,8 @@
 
   .skills--section--card:hover {
     transform: translateY(-10px);
-    border: 2px solid rgba(255, 223, 101, 1);
-    background-color: rgba(62, 62, 60, 0.2);
+    border: 2px solid var(--yellow);
+    background-color: var(--darkColor);
   }
 
   .skills--section--img {

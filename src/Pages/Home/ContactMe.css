@@ -5,16 +5,18 @@
     padding: 70px 0px 70px 0px;
     align-items: center;
     justify-content: center;
-    background-color: var(--yellow);
+    background-color: var(--darkColor);
+    border-top: 2px solid var(--mediumColor);
+    border-bottom: 2px solid var(--mediumColor);
   }
 
   .contact--section--heading {
-    color: var(--darkColor);
+    color: var(--halfLightColor);
     font-size: 50px;
   }
 
   .contact--section--description {
-    color: var(--halfDarkColor);
+    color: var(--mediumColor);
     font-size: 18px;
     padding-bottom: 40px;
   }
@@ -25,7 +27,7 @@
     justify-content:center;
     width: 100%;
     row-gap: 22px;
-    border-right: 10px double var(--lightColor);
+    border-right: 10px double var(--mediumColor);
   }
 
   .container {
@@ -53,7 +55,12 @@
     align-self: stretch;
     border-radius: 8px;
     border: 1.5px solid var(--mediumColor);
-    background: var(--lightColor);
+    background: var(--halfLightColor);
+    color: var(--halfDarkColor);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
   }
 
   .contact--form--btn{
@@ -67,22 +74,22 @@
     padding-left: 30px;
     gap: 15px;
     font-size: 40px;
-    color: var(--halfDarkColor);
-    transition: all 0.2s;
+    color: var(--mediumColor);
+    transition: all 0.1s;
   }
 
   .contact--icons:hover {
-    color: var(--lightColor);
+    color: var(--yellow);
   }
 
   .contact--icons a{
     text-decoration: none;
-    color: var(--halfDarkColor);
-    transition: all 0.2s;
+    color: var(--mediumColor);
+    transition: all 0.1s;
   }
 
   .contact--icons a:hover {
-    color: var(--DarkColor)
+    color: var(--yellow)
   }
 
   @media only screen and (max-width: 700px) {
