@@ -175,12 +175,14 @@
       margin: 0 auto;
     }
     .portfolio--project--slider{
-      padding: 2rem 0rem 0rem 0rem;
-      margin: 0px;
-      padding-bottom: 15px;
+      padding: 2rem 0rem 2rem 0rem;
+      margin: 0px auto;
+      background-color: var(--red);
+      width: 85%;
     }
     .portfolio--project--text {
-      padding:0px 30px 40px 30px;
+      margin: 0 auto;
+      width: 85%;
       display: flex;
       text-align: left;
       flex-direction: column;
@@ -188,12 +190,14 @@
     }
     .portfolio--project--title {
       font-size: 26px;
+      padding-top: 20px;
     }
     .portfolio--project--description {
       font-size: 18px;
       font-weight: 400;
       line-height: 30px;
       padding-top: 15px;
+      padding-bottom: 20px;
     }
     .portfolio--project--description ul{
       padding-left: 15px;
@@ -205,6 +209,7 @@
     .portfolio--project--btns {
       display: flex;
       padding-top: 30px;
+      padding-bottom: 20px;
     }
     .portfolio--project--btns span{
       font-size: 14px;
