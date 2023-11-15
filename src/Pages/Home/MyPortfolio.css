@@ -173,15 +173,19 @@
     .portfolio--project--content {
       display: block;
       margin: 0 auto;
+      background-color: var(--darkColor);
     }
     .portfolio--project--slider{
       padding: 2rem 0rem 2rem 0rem;
       margin: 0px auto;
-      background-color: var(--red);
+      border: 2px solid var(--blue);
+      background-color: var(--darkColor);
+      border-radius: 20px;
       width: 85%;
     }
     .portfolio--project--text {
       margin: 0 auto;
+      margin-top: 15px;
       width: 85%;
       display: flex;
       text-align: left;
@@ -211,7 +215,14 @@
       padding-top: 30px;
       padding-bottom: 20px;
     }
+    .portfolio--project--btn-close {
+      color: var(--mediumColor);
+    }
+    .portfolio--project--btn--site a{
+      color: var(--mediumColor);
+    }
     .portfolio--project--btns span{
       font-size: 14px;
+      color: var(--mediumColor);
     }
   }
