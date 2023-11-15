@@ -6,7 +6,7 @@
     justify-content: space-between;
     gap: 0px;
     background-color: var(--darkColor);
-    border-bottom: 2px solid var(--mediumColor);
+    border-bottom: 1.5px solid var(--mediumColor);
   }
 
   .hero--section--content-box {
@@ -41,13 +41,14 @@
   }
 
   .hero--section--animation {
-    border-left: 10px double var(--mediumColor);
+    border-left: 4px double var(--mediumColor);
   }
 
   .hero--section-btn-primary {
     color: var(--darkColor);
     background-color: var(--yellow);
     border: 1.5px solid var(--halfDarkColor);
+    padding: 1.6rem 2rem;
     z-index: 1;
   }
 

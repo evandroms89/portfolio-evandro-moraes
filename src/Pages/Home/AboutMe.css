@@ -27,7 +27,7 @@
   }
   .about--section--box {
     padding: 30px 100px 45px 60px;
-    border-left: 10px double var(--lightColor);
+    border-left: 4px double var(--lightColor);
     background-color: var(--halfLightColor);
     z-index: 1;
   }

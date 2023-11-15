@@ -10,6 +10,7 @@
     left: 0;
     right: 0;
     z-index: 2;
+    border-bottom: 1.5px solid var(--mediumColor);
   }
   .navbar--items > ul {
     list-style: none;
@@ -43,7 +44,8 @@
     font-weight: bold;
     color: var(--yellow);
     font-size: 30px;
-    border-bottom: 10px double var(--mediumColor);
+    padding-bottom: 4px;
+    border-bottom: 4px double var(--mediumColor);
   }
   @media only screen and (max-width: 700px) {
     .navbar {

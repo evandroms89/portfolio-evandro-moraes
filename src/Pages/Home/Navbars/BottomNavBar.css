@@ -20,6 +20,7 @@
         justify-self: center;
         z-index: 2;
         box-shadow: 0px -10px 40px 0 rgba(25, 25, 25, 0.8);
+        border-top: 1.5px solid var(--mediumColor);
     }
     .bottom-navbar--content:hover {
         color: var(--yellow);
