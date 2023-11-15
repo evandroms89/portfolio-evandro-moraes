@@ -15,8 +15,8 @@ export default function Slider() {
         {id: '3', image: 'img/projects/project1-3.jpg'},
     ]
     const imgsMob = [
-        {id: '1', image: 'img/projects/project2-1.jpg'},
-        {id: '2', image: 'img/projects/project2-2.jpg'},
+        {id: '1', image: 'img/projects/project1m-1.jpg'},
+        {id: '2', image: 'img/projects/project1m-2.jpg'},
     ]
     return (
         <div className="slider">

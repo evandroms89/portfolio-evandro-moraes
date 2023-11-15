@@ -13,7 +13,7 @@
         width: 100%;
         font-size: 30px;
         text-align: center;
-        color: var(--blue);
+        color: var(--yellow);
         background-color: var(--darkColor);
         align-items: center;
         justify-content: center;
@@ -23,6 +23,6 @@
         border-top: 1.5px solid var(--mediumColor);
     }
     .bottom-navbar--content:hover {
-        color: var(--yellow);
+        color: var(--blue);
     }  
 }

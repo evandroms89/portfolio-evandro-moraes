@@ -10,13 +10,13 @@
 @media only screen and (max-width: 700px) {
     .slider{
         width: 350px;
-        height: 350px;
+        height: 680px;
         overflow: hidden;
         margin: 0 auto;
     }
     .slide--item {
-        height: 350px;
         width: 350px;
+        height: 680px;
     }
     
 }
