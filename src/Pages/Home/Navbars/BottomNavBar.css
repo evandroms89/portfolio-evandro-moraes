@@ -24,5 +24,8 @@
     }
     .bottom-navbar--content:hover {
         color: var(--yellow);
-    }  
+    } 
+    .navbar--active-content {
+        color: var(--yellow);
+      } 
 }

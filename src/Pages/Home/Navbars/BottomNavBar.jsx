@@ -55,6 +55,8 @@ function BottomNavBar() {
                         <HiMiniComputerDesktop />
                         </Link>
                         <Link
+                        activeClass="navbar--active-content"
+                        spy={true}
                         smooth={true}
                         offset={-30}
                         duration={500}
