@@ -11,6 +11,8 @@ function BottomNavBar() {
     return (
         <div className="bottom-nav-bar">
                         <Link
+                        activeClass="navbar--active-content"
+                        spy={true}
                         smooth={true}
                         offset={-30}
                         duration={500}
@@ -20,6 +22,8 @@ function BottomNavBar() {
                         <AiFillHome />
                         </Link>
                         <Link
+                        activeClass="navbar--active-content"
+                        spy={true}
                         smooth={true}
                         offset={-30}
                         duration={500}
@@ -29,8 +33,10 @@ function BottomNavBar() {
                         <GiSkills />
                         </Link>
                         <Link
+                        activeClass="navbar--active-content"
+                        spy={true}
                         smooth={true}
-                        offset={-50}
+                        offset={-30}
                         duration={500}
                         to="AboutMe"
                         className="bottom-navbar--content"
@@ -38,8 +44,10 @@ function BottomNavBar() {
                         <BsFillPersonFill />
                         </Link>
                         <Link
+                        activeClass="navbar--active-content"
+                        spy={true}
                         smooth={true}
-                        offset={-30}
+                        offset={-20}
                         duration={500}
                         to="MyPortfolio"
                         className="bottom-navbar--content"

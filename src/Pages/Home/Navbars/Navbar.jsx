@@ -14,6 +14,7 @@ function Navbar() {
           <li>
             <Link
               activeClass="navbar--active-content"
+              spy={true}
               smooth={true}
               offset={-40}
               duration={500}
@@ -26,8 +27,9 @@ function Navbar() {
           <li>
             <Link
               activeClass="navbar--active-content"
+              spy={true}
               smooth={true}
-              offset={-60}
+              offset={-40}
               duration={500}
               to="mySkills"
               className="navbar--content"
@@ -38,8 +40,9 @@ function Navbar() {
           <li>
             <Link
               activeClass="navbar--active-content"
+              spy={true}
               smooth={true}
-              offset={-80}
+              offset={-30}
               duration={500}
               to="AboutMe"
               className="navbar--content"
@@ -50,6 +53,7 @@ function Navbar() {
           <li>
             <Link
               activeClass="navbar--active-content"
+              spy={true}
               smooth={true}
               offset={-20}
               duration={500}

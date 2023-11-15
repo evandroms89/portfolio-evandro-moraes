@@ -49,7 +49,8 @@
     color: var(--darkColor);
   }
   #portfolio--project {
-    padding-top: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: var(--yellow);
   }
   .portfolio--project--content {
@@ -64,7 +65,7 @@
   .portfolio--project--text {
     padding-left: 30px;
     padding-right: 40px;
-    text-align: justify;
+    text-align: left;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

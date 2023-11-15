@@ -23,6 +23,6 @@
         border-top: 1.5px solid var(--mediumColor);
     }
     .bottom-navbar--content:hover {
-        color: var(--blue);
+        color: var(--yellow);
     }  
 }
