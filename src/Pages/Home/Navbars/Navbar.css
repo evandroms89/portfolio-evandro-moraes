@@ -4,7 +4,7 @@
     align-items: center;
     padding: 20px 85px;
     background-color: var(--darkColor);
-    box-shadow: 0px 10px 40px 0 rgba(25, 25, 25, 0.5);
+    box-shadow: 0px 10px 40px 0 rgba(25, 25, 25, 0.8);
     position: fixed;
     top: 0;
     left: 0;
@@ -48,8 +48,8 @@
   @media only screen and (max-width: 700px) {
     .navbar {
       display: block;
-      padding: 0px 0px;
-      box-shadow: 0px 10px 40px 0 rgba(133, 131, 119, 0.5);
+      padding: 1rem 0;
+      box-shadow: 0px 10px 40px 0 rgba(25, 25, 25, 0.8);
       z-index: 2;
     }
     .navbar--items{
@@ -63,6 +63,6 @@
       padding: 10px 0px 10px 0px;
       font-size: 26px;
       text-align: center;
-      border-bottom: 10px double var(--yellow);
+      border: none;
     }
   }

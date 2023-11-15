@@ -60,7 +60,7 @@
   @media only screen and (max-width: 700px) {
     .hero--section {
       grid-template-columns: 1fr;
-      padding: 110px 10px 30px 10px;
+      padding: 130px 10px 30px 10px;
       justify-content: center;
       align-items: center;
     }
@@ -79,12 +79,14 @@
       font-size: 50px;
       line-height: 50px;
       text-align: left;
+      padding-bottom: 12px;
     }
 
     .hero--section-description{
       width: 220px;
-      padding: 0px 0px;
+      padding: 12px 0px;
       line-height: 30px;
+      color: var(--mediumColor);
     }
 
     .hero--section--animation {
@@ -96,7 +98,7 @@
       display: block;
       width: 150px;
       font-size: 20px;
-      margin: 45px auto;
+      margin: 80px auto;
       z-index: 1;
     }
   }

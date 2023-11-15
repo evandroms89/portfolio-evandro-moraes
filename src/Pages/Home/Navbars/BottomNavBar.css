@@ -14,14 +14,14 @@
         font-size: 30px;
         text-align: center;
         color: var(--mediumColor);
-        background-color: var(--halfLightColor);
+        background-color: var(--darkColor);
         align-items: center;
         justify-content: center;
         justify-self: center;
         z-index: 2;
-        box-shadow: 0px -10px 40px 0 rgba(133, 131, 119, 0.5);
+        box-shadow: 0px -10px 40px 0 rgba(25, 25, 25, 0.8);
     }
     .bottom-navbar--content:hover {
-        color: var(--superDarkColor);
+        color: var(--yellow);
     }  
 }
