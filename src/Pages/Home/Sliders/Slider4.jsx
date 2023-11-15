@@ -15,6 +15,11 @@ export default function Slider4() {
         {id: '2', image: 'img/projects/project4-2.jpg'},
         {id: '3', image: 'img/projects/project4-3.jpg'},
     ]
+    const imgsMob = [
+        {id: '1', image: 'img/projects/project4m-1.jpg'},
+        {id: '2', image: 'img/projects/project4m-2.jpg'},
+        {id: '3', image: 'img/projects/project4m-3.jpg'},
+    ]
     return (
         <div className="slider">
             <Swiper
@@ -27,15 +32,26 @@ export default function Slider4() {
             }}
             speed={3000}
             >
-            {imgs.map((item) => (
-                <SwiperSlide key={item.id}>
-                    <img
-                    src={item.image}
-                    alt="Slider"
-                    className="slide--item"
-                />
-                </SwiperSlide>
-            ))}
+            {window.innerWidth >= 700 ?
+                imgs.map((item) => (
+                    <SwiperSlide key={item.id}>
+                        <img
+                        src={item.image}
+                        alt="Slider"
+                        className="slide--item"
+                    />
+                    </SwiperSlide>
+                )) :
+                imgsMob.map((item) => (
+                    <SwiperSlide key={item.id}>
+                        <img
+                        src={item.image}
+                        alt="Slider"
+                        className="slide--item"
+                    />
+                    </SwiperSlide>
+                ))
+            }
             </Swiper>
         </div>
     )
