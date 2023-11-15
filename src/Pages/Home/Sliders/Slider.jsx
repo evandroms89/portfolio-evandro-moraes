@@ -7,7 +7,7 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "swiper/css/effect-fade";
 import {Swiper, SwiperSlide} from "swiper/react";
-import {EffectCoverflow} from "swiper/modules";
+import {EffectFade} from "swiper/modules";
 
 export default function Slider() {
     const imgs = [
@@ -21,8 +21,8 @@ export default function Slider() {
     return (
         <div className="slider">
             <Swiper
-            modules={[EffectCoverflow]}
-            effect="coverflow"
+            modules={[EffectFade]}
+            effect="fade"
             slidesPerView={1}
             autoplay={{
                 delay: 3000,
