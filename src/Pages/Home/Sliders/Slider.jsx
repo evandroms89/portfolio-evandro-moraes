@@ -25,10 +25,10 @@ export default function Slider() {
             effect="fade"
             slidesPerView={1}
             autoplay={{
-                delay: 3000,
+                delay: 5000,
                 disableOnInteraction: false,
             }}
-            speed={3000}
+            speed={1000}
             >
             {window.innerWidth >= 700 ?
                 imgs.map((item) => (
