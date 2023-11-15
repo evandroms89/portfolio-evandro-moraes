@@ -49,8 +49,6 @@
     color: var(--darkColor);
   }
   #portfolio--project {
-    padding-top: 20px;
-    padding-bottom: 20px;
     background-color: var(--yellow);
   }
   .portfolio--project--content {
