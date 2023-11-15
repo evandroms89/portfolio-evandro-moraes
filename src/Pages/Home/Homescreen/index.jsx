@@ -1,5 +1,5 @@
 import AboutMe from "../AboutMe";
-import BottomNavBar from "../BottomNavBar";
+import BottomNavBar from "../Navbars/BottomNavBar";
 import ContactMe from "../ContactMe";
 import Footer from "../Footer";
 import HeroSection from "../HeroSection";

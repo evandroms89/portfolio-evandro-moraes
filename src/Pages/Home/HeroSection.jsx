@@ -1,9 +1,8 @@
 import "./HeroSection.css"; 
+import { Link } from "react-scroll";
 import { TypeAnimation } from 'react-type-animation';
 import Lottie from 'react-lottie';
-import { Link } from "react-scroll";
 import computerAnimation from '../../assets/LottieJson/computerAnimation.json';
-import { useEffect } from "react";
 
 export default function HeroSection() {
 
@@ -12,19 +11,6 @@ export default function HeroSection() {
     autoplay: true,
     animationData: computerAnimation
   }
-
-  // useEffect(() => {
-  //   var options = {
-  //     animate: true,
-  //     patternWidth: 700,
-  //     patternHeight: 700,
-  //     grainOpacity: 0.1,
-  //     grainDensity: 1,
-  //     grainWidth: 1,
-  //     grainHeight: 1
-  //   };
-  //   grained("#heroSection", options);
-  // }, [])
 
   return (
     <section id="heroSection" className="hero--section">
@@ -48,8 +34,8 @@ export default function HeroSection() {
               2000
             ]}
             wrapper="span"
-            speed={30}
-            style={{ fontSize: '25px', display: 'inline-block', color: '#858377' }}
+            speed={25}
+            style={{ fontSize: '24px', display: 'inline-block', color: '#858377' }}
             repeat={Infinity}
           />
         </div>

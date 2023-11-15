@@ -7,6 +7,7 @@
     justify-content: center;
     text-align: center;
   }
+
   .footer--items > ul {
     list-style: none;
     display: flex;
@@ -14,10 +15,12 @@
     gap: 42px;
     text-decoration: none;
   }
+
   .footer--items ul > li > a {
     text-decoration: none;
     cursor: pointer;
   }
+
   .footer--nav {
     color: var(--mediumColor);
   }
@@ -29,10 +32,12 @@
       font-size: 12px;
       width: 100%;
     }
+
     .footer--items {
       display: block;
       margin: 0 auto;
     }
+    
     .footer--items > ul {
       display: flex;
       align-items: center;

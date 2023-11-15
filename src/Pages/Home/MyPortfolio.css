@@ -1,6 +1,6 @@
 .portfolio--section {
     display: block;
-    padding: 100px 0px 140px 0px;
+    padding: 100px 40px 140px 40px;
     background-color: var(--darkColor);
     min-height: 550px;
   }
@@ -10,7 +10,6 @@
     width: 100%;
   }
   .portfolio--section--heading{
-    padding-left: 85px;
     color: var(--yellow);
   }
   .portfolio--section--heading span{
@@ -26,23 +25,23 @@
     justify-items: center;
     gap:0px;
     z-index: 1;
+    border-bottom: 10px double var(--mediumLightColor);
   }
   .portfolio--section--card {
     width: 100%;
     height: 100%;
     cursor: pointer;
     overflow: hidden;
-    transition: all 1.5s;
     box-shadow: -2px -2px 8px 0px rgba(0, 0, 0, 0.0);
   }
   .portfolio--section--card img{
     width: 100%;
     height: 100%;
     opacity: 1;
-    transition: all 1.5s;
+    transition: all 0.7s;
   }
   .portfolio--section--card img:hover{
-    transform: scale(1.1);
+    transform: scale(1.07);
   }
   .portfolio--section--title {
     color: var(--darkColor);
@@ -56,7 +55,7 @@
   }
   .portfolio--project--text {
     padding-left: 30px;
-    padding-right: 80px;
+    padding-right: 60px;
     text-align: justify;
     display: flex;
     flex-direction: column;
@@ -127,7 +126,7 @@
   @media only screen and (max-width: 700px) {
     .portfolio--section {
       display: block;
-      padding: 50px 0px 0px 0px;
+      padding: 70px 0px 100px 0px;
     }
     .portfolio--section--heading{
       font-size: 40px;
@@ -137,7 +136,7 @@
       display: grid;
       margin: 0 auto;
       width: 100%;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr;
       align-items: center;
       justify-content: center;
       justify-items: center;
@@ -146,16 +145,13 @@
     }
     .portfolio--section--card {
       width: 100%;
-      height: 180px;
       box-shadow: -2px -2px 8px 0px rgba(0, 0, 0, 0.0);
       border-radius: 0px;
     }
     .portfolio--section--card img{
       box-shadow: -2px -2px 8px 1px rgba(0, 0, 0, 0.0);
       border-radius: 0px;
-      width: auto;
-      height: 100%;
-      margin-left: -70px;
+      width: 100%;
     }
     .portfolio--section--card img:hover{
       transform: scale(1);

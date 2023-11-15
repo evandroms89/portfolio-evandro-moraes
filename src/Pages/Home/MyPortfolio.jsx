@@ -1,10 +1,10 @@
 import "./MyPortfolio.css"
-
-import { useEffect, useState } from "react";
-import{BsFillArrowLeftSquareFill,BsFillArrowUpRightSquareFill} from "react-icons/bs"
 import data from "../../data/index.json";
+
+import { useState } from "react";
+import{BsFillArrowLeftSquareFill,BsFillArrowUpRightSquareFill} from "react-icons/bs"
 import { Link } from "react-scroll";
-import AnimatedPage from "./AnimatedPage";
+import AnimatedPage from "./Effects/AnimatedPage";
 
 import Slider from "./Sliders/Slider";
 import Slider2 from "./Sliders/Slider2";
