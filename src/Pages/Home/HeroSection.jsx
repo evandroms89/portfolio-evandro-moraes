@@ -35,7 +35,7 @@ export default function HeroSection() {
             ]}
             wrapper="span"
             speed={25}
-            style={{ fontSize: '24px', display: 'inline-block', color: '#c77546' }}
+            style={{ fontSize: '23px', display: 'inline-block', color: '#c77546' }}
             repeat={Infinity}
           />
         </div>

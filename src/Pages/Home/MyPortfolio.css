@@ -154,7 +154,7 @@
       align-items: center;
       justify-content: center;
       justify-items: center;
-      gap:6px;
+      gap:1px;
       z-index: 1;
     }
     .portfolio--section--card {
@@ -177,11 +177,12 @@
     .portfolio--project--slider{
       padding: 2rem 0rem 0rem 0rem;
       margin: 0px;
-      padding-bottom: 40px;
+      padding-bottom: 15px;
     }
     .portfolio--project--text {
       padding:0px 30px 40px 30px;
       display: flex;
+      text-align: left;
       flex-direction: column;
       justify-content: space-between;
     }

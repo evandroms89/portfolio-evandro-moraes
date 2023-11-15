@@ -143,7 +143,7 @@ export default function MyPortfolio() {
             <div className="portfolio--project--text">
               {data.projects.map((item,index) => (
                 item.id == projectId &&
-                  <div key={index} className="portfolio--project--title">
+                <div key={index} className="portfolio--project--title">
                   {item.title}
                   <div key={index} className="portfolio--project--description">
                     <div className="portfolio--project--description--top">{item.description}</div>
@@ -152,8 +152,8 @@ export default function MyPortfolio() {
                         <li key={index}>{item}</li>
                       </ul>
                     ))}
-                  </div>
                 </div>
+              </div>
               ))}
               <div className="portfolio--project--btns">
                 <div>
