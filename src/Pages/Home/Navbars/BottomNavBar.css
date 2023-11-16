@@ -23,6 +23,6 @@
         border-top: 1.5px solid var(--mediumColor);
     }
     .navbar--active-content {
-        color: var(--yellow);
+        color: var(--mediumColor);
       } 
 }

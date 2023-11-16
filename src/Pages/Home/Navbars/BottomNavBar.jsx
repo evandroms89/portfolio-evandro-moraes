@@ -8,13 +8,13 @@ import{HiMiniComputerDesktop} from "react-icons/hi2"
 import{BiSolidMessageAltDetail} from "react-icons/bi"
 
 function BottomNavBar() {
+    console.log(`scroll é: ${window.scrollY}`)
     return (
         <div className="bottom-nav-bar">
                         <Link
                         activeClass="navbar--active-content"
                         spy={true}
                         smooth={true}
-                        offset={-100}
                         duration={500}
                         to="heroSection"
                         className="bottom-navbar--content"
@@ -25,7 +25,6 @@ function BottomNavBar() {
                         activeClass="navbar--active-content"
                         spy={true}
                         smooth={true}
-                        offset={10}
                         duration={500}
                         to="mySkills"
                         className="bottom-navbar--content"
@@ -36,7 +35,6 @@ function BottomNavBar() {
                         activeClass="navbar--active-content"
                         spy={true}
                         smooth={true}
-                        offset={10}
                         duration={500}
                         to="AboutMe"
                         className="bottom-navbar--content"
@@ -47,7 +45,6 @@ function BottomNavBar() {
                         activeClass="navbar--active-content"
                         spy={true}
                         smooth={true}
-                        offset={70}
                         duration={500}
                         to="MyPortfolio"
                         className="bottom-navbar--content"
@@ -58,7 +55,6 @@ function BottomNavBar() {
                         activeClass="navbar--active-content"
                         spy={true}
                         smooth={true}
-                        offset={60}
                         duration={500}
                         to="Contact"
                         className="bottom-navbar--content"

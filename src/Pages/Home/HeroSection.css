@@ -70,7 +70,7 @@
   @media only screen and (max-width: 700px) {
     .hero--section {
       grid-template-columns: 1fr;
-      padding: 130px 10px 30px 10px;
+      padding: 0px 10px 30px 10px;
       justify-content: center;
       align-items: center;
     }
