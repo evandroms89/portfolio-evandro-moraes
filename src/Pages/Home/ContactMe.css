@@ -114,13 +114,14 @@
 
   @media only screen and (max-width: 700px) {
     .contact--section {
-      display: block;
+      display: flex;
+      flex-direction: column-reverse;
       padding: 80px 0px 100px 0px;
     }
 
     .contact--form--text {
       text-align: center;
-      padding: 0px 25px 15px 25px;
+      padding: 0px 25px 0px 25px;
     }
 
     .contact--section--heading {
@@ -129,7 +130,9 @@
     }
 
     .contact--section--description{
-      font-size: 18px;
+      font-size: 1rem;
+      line-height: 1.3rem;
+      padding-bottom: 1.2rem;
     }
 
     .contact--form--container {
@@ -162,12 +165,12 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      padding: 0px 0px 0px 0px;
+      padding: 0px 0px 5px 0px;
       font-size: 30px;
       color: var(--halfDarkColor);
     }
     
-    .contact--icons:hover {
+    .contact--icons a:hover {
       color: var(--halfDarkColor);
     }
     .contact--message--send {
