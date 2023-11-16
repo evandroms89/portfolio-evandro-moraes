@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./ContactMe.css"
-import{BsLinkedin, BsGithub} from "react-icons/bs"
+import{BsLinkedin, BsGithub, BsWhatsapp} from "react-icons/bs"
+import { SiGmail } from "react-icons/si";
 import emailjs from "@emailjs/browser"
 
 export default function ContactMe() {
@@ -119,6 +120,12 @@ export default function ContactMe() {
               </a>
               <a href="https://github.com/evandroms89" target="_blank">
                 < BsGithub />
+              </a>
+              <a href="mailto:evandroms89@gmail.com" target="_blank">
+                < SiGmail />
+              </a>
+              <a href="https://wa.me/5511980129404" target="_blank">
+                < BsWhatsapp />
               </a>
             </div>
         </section>
