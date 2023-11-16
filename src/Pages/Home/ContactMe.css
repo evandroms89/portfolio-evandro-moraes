@@ -96,6 +96,22 @@
     color: var(--yellow)
   }
 
+  .contact--message--send {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--yellow);
+    font-size: 2.2rem;
+    padding: 200px 0px;
+    background-color: var(--darkColor);
+    border-top: 1.5px solid var(--mediumColor);
+    border-bottom: 1.5px solid var(--mediumColor);
+  }
+
+  .contact--message--send span {
+    color: var(--pink);
+  }
+
   @media only screen and (max-width: 700px) {
     .contact--section {
       display: block;
@@ -153,5 +169,9 @@
     
     .contact--icons:hover {
       color: var(--halfDarkColor);
+    }
+    .contact--message--send {
+      font-size: 1.4rem;
+      padding-bottom: 18rem;
     }
   }

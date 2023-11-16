@@ -82,7 +82,7 @@ function BottomNavBar() {
                         </Link>
                         <Link
                         smooth={true}
-                        offset={-40}
+                        offset={-20}
                         duration={500}
                         to="Contact"
                         className={`bottom-navbar--content ${isActive && buttonActive == "contact" ? "active" : ""}`}
