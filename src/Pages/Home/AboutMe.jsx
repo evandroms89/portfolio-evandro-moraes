@@ -5,7 +5,9 @@ export default function AboutMe() {
   return (
     <section id="AboutMe" className="about--section">
       <div className="about--section--img">
-        <img src="./img/about-me.png" alt="About Me" />
+        <a href="https://www.linkedin.com/in/evandro-moraes/" target="_blank">
+          <img src="./img/about-me.png" alt="About Me" />
+        </a>
       </div>
       <div id="aboutGrain" className="about--section--box">
         <div className="about--section--content">

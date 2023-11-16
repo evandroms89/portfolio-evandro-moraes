@@ -19,7 +19,7 @@
     z-index: 1;
     width: 75%;
   }
-  .about--section--img > img {
+  .about--section--img a img {
     width: 100%;
     height: 100%;
   }
