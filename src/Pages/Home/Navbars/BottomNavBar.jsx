@@ -1,7 +1,7 @@
 import "./BottomNavBar.css"
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
-import{BsSquareFill, BsFillPersonFill} from "react-icons/bs"
+import{BsFillPersonFill} from "react-icons/bs"
 import{AiFillHome} from "react-icons/ai"
 import{GiSkills} from "react-icons/gi"
 import{HiMiniComputerDesktop} from "react-icons/hi2"
@@ -12,7 +12,6 @@ function BottomNavBar() {
     const [isActive, setIsActive] = useState(false);
     const [buttonActive, setButtonActive] = useState("home");
 
-    const homeTop = 0
     const skillsTop = 778
     const aboutTop = 1981
     const projectsTop = 3184
@@ -20,10 +19,6 @@ function BottomNavBar() {
 
     const activeColorButton = () => {
         setIsActive(true);
-    };
-
-    const disableColorButton = () => {
-        setIsActive(false);
     };
 
     useEffect(() =>{
@@ -44,7 +39,6 @@ function BottomNavBar() {
             setButtonActive("contact")
             activeColorButton()
         }
-        console.log(window.scrollY)
        })
     },[])
 

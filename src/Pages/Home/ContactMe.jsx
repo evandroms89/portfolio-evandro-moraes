@@ -1,10 +1,50 @@
+import { useState } from "react";
 import "./ContactMe.css"
 import{BsLinkedin, BsGithub} from "react-icons/bs"
+import emailjs from "@emailjs/browser"
 
 export default function ContactMe() {
+  const[name, setName] = useState();
+  const[email, setEmail] = useState();
+  const[tel, setTel] = useState();
+  const[message, setMessage] = useState();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    if(name === "") {
+      alert("Preencha o nome")
+      return
+    } else if(email === "") {
+      alert("Preencha o email")
+      return
+    } else if(message === "") {
+      alert("Preencha a mensagem")
+      return
+    }
+
+    const templateParams = {
+      from_name: name,
+      message: message,
+      email: email,
+      tel: tel
+    }
+
+    emailjs.send("service_7ojtra7", "template_gc7k2c4", templateParams, "NFOOx6pss6Kd42uKc")
+    .then((response) => {
+      console.log("EMAIL ENVIADO", response.status, response.text)
+      setName("")
+      setEmail("")
+      setTel("")
+      setMessage("")
+    }, (err) => {
+      console.log("ERRO: ", err)
+    })
+  }
+
   return (
     <section id="Contact" className="contact--section">
-      <form className="contact--form--container">
+      <form className="contact--form--container" onSubmit={sendEmail}>
         <div className="contact--form--text">
           <h2 className="contact--section--heading"><span>&#91;</span> entre-em-contato <span>&#93;</span></h2>
           <p className="contact--section--description">
@@ -13,14 +53,16 @@ export default function ContactMe() {
         </div>
         <div className="container">
           <div className="contact--inputs">
-            <label htmlFor="first-name" className="contact--label">
+            <label htmlFor="name" className="contact--label">
               <span className="text-md">Nome</span>
               <input
                 type="text"
                 className="contact--input"
-                name="first-name"
-                id="first-name"
-                required
+                name="name"
+                id="name"
+                onChange={(e) => setName(e.target.value)}
+                value={name}
+               
               />
             </label>
             <label htmlFor="email" className="contact--label">
@@ -30,6 +72,8 @@ export default function ContactMe() {
                 className="contact--input"
                 name="email"
                 id="email"
+                onChange={(e) => setEmail(e.target.value)}
+                value={email}
                 required
               />
             </label>
@@ -40,7 +84,8 @@ export default function ContactMe() {
                 className="contact--input"
                 name="phone-number"
                 id="phone-number"
-                required
+                onChange={(e) => setTel(e.target.value)}
+                value={tel}
               />
             </label>
           </div>
@@ -50,6 +95,8 @@ export default function ContactMe() {
             <textarea
               className="contact--input"
               id="message"
+              onChange={(e) => setMessage(e.target.value)}
+              value={message}
               rows="7"
               placeholder="Digite sua mensagem..."
             />
