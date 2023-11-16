@@ -22,7 +22,7 @@
         box-shadow: 0px -10px 40px 0 rgba(25, 25, 25, 0.8);
         border-top: 1.5px solid var(--mediumColor);
     }
-    .navbar--active-content {
-        color: var(--mediumColor);
-      } 
+    .active {
+        color: var(--yellow);
+    } 
 }
