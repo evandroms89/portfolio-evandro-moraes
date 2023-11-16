@@ -13,55 +13,7 @@ import Slider4 from "./Sliders/Slider4";
 import Slider5 from "./Sliders/Slider5";
 import Slider6 from "./Sliders/Slider6";
 
-export default function MyPortfolio() {
-  const [portfolioContainer, setPortfolioContainer] = useState(true);
-  const [newProject, setNewProject] = useState(false);
-  const [projectId, setProjectId] = useState(0);
-
-  const showNewProject = () => {
-    setNewProject(true);
-  }
-
-  const closeNewProject = () => {
-    setNewProject(false)
-    setPortfolioContainer(true)
-  }
-
-  const showNewProject1 = () => {
-    showNewProject()
-    setProjectId(1)
-    setPortfolioContainer(false)
-  }
-
-  const showNewProject2 = () => {
-    showNewProject()
-    setProjectId(2)
-    setPortfolioContainer(false)
-  }
-
-  const showNewProject3 = () => {
-    showNewProject()
-    setProjectId(3)
-    setPortfolioContainer(false)
-  }
-
-  const showNewProject4 = () => {
-    showNewProject()
-    setProjectId(4)
-    setPortfolioContainer(false)
-  }
-
-  const showNewProject5 = () => {
-    showNewProject()
-    setProjectId(5)
-    setPortfolioContainer(false)
-  }
-
-  const showNewProject6 = () => {
-    showNewProject()
-    setProjectId(6)
-    setPortfolioContainer(false)
-  }
+export default function MyPortfolio({portfolioContainer, newProject, projectId, showNewProject, closeNewProject, showNewProject1, showNewProject2, showNewProject3, showNewProject4, showNewProject5, showNewProject6}) {
 
   return (
     <section className="portfolio--section" id="MyPortfolio">

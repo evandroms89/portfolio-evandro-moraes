@@ -1,8 +1,7 @@
 import "./Navbar.css"
-import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 
-function Navbar() {
+function Navbar({closeNewProject}) {
 
   return (
     <nav className="navbar">
@@ -52,6 +51,7 @@ function Navbar() {
           </li>
           <li>
             <Link
+            onClick={closeNewProject}
               activeClass="navbar--active-content"
               spy={true}
               smooth={true}

@@ -23,6 +23,7 @@ p {
   --darkBlue: #2666cb;
   --yellow: #d4c99c;
   --pink: #c57991;
+  --green: #b9cd90;
   --mediumLightColor: #b5b5b5;
   --halfLightColor: #eeece2;
   --halfDarkColor: #525458;
@@ -142,4 +143,17 @@ h3 {
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
+}
+
+@media only screen and (max-width: 700px) {
+  .btn-outline-primary:hover {
+    color: var(--yellow);
+    background-color: var(--darkColor);
+    border: 1.5px solid var(--mediumColor);
+  }
+
+  .btn-primary:hover {
+    color: var(--darkColor);
+    background-color: var(--yellow);
+  }
 }

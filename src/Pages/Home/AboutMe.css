@@ -57,13 +57,13 @@
       font-size: 40px;
     }
     .about--section--box {
-      padding: 20px 40px;
+      padding: 20px 60px;
       padding-bottom: 70px;
       z-index: 1;
       border: none;
     }
     .about--section-description {
-      font-size: 20px;
-      line-height: 34px;
+      font-size: 18px;
+      line-height: 32px;
     }
   }

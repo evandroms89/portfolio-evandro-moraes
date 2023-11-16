@@ -1,10 +1,11 @@
 import "./HeroSection.css"; 
+import closeProject from "./MyPortfolio"
 import { Link } from "react-scroll";
 import { TypeAnimation } from 'react-type-animation';
 import Lottie from 'react-lottie';
 import techCircle from '../../assets/LottieJson/techCircle.json';
 
-export default function HeroSection() {
+export default function HeroSection({closeNewProject}) {
 
   const defaultOptions = {
     loop: true,
@@ -40,6 +41,7 @@ export default function HeroSection() {
           />
         </div>
         <Link
+              onClick={closeNewProject}
               activeClass="navbar--active-content"
               smooth={true}
               offset={-20}

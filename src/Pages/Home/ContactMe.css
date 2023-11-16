@@ -1,7 +1,7 @@
 .contact--section {
     display: grid;
     width: 100%;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 77% 23%;
     padding: 70px 0px 70px 0px;
     align-items: center;
     justify-content: center;
@@ -75,25 +75,36 @@
     display: grid;
     justify-content: start;
     grid-template-rows: 1fr 1fr;
-    padding-left: 3rem;
+    padding-left: 3.6rem;
     gap: 1.4rem;
     font-size: 40px;
     color: var(--mediumColor);
     transition: all 0.1s;
   }
 
-  .contact--icons:hover {
-    color: var(--yellow);
-  }
-
   .contact--icons a{
     text-decoration: none;
-    color: var(--mediumColor);
-    transition: all 0.1s;
+    transition: all 0.3s;
   }
 
   .contact--icons a:hover {
-    color: var(--yellow)
+    transform: scale(1.1)
+  }
+
+  .btn--linkedin {
+    color: var(--blue);
+  }
+
+  .btn--github {
+    color: var(--pink);
+  }
+
+  .btn--gmail {
+    color: var(--red)
+  }
+
+  .btn--whats {
+    color: var(--green)
   }
 
   .contact--message--send {
@@ -169,10 +180,27 @@
       font-size: 30px;
       color: var(--halfDarkColor);
     }
-    
+
     .contact--icons a:hover {
-      color: var(--halfDarkColor);
+      transform: scale(1)
     }
+
+    .btn--linkedin {
+      color: var(--blue);
+    }
+
+    .btn--github {
+      color: var(--pink);
+    }
+
+    .btn--gmail {
+      color: var(--red)
+    }
+
+    .btn--whats {
+      color: var(--green)
+    }
+
     .contact--message--send {
       font-size: 1.4rem;
       padding-bottom: 18rem;

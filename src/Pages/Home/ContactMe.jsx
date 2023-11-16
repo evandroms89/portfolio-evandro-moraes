@@ -115,17 +115,17 @@ export default function ContactMe() {
               </div>
             </form>
             <div className="contact--icons">
-              <a href="https://www.linkedin.com/in/evandro-moraes/" target="_blank">
-                < BsLinkedin />
+              <a href="https://www.linkedin.com/in/evandro-moraes/" target="_blank" >
+                < BsLinkedin className="btn--linkedin"/>
               </a>
-              <a href="https://github.com/evandroms89" target="_blank">
-                < BsGithub />
+              <a href="https://github.com/evandroms89" target="_blank" >
+                < BsGithub className="btn--github"/>
               </a>
-              <a href="mailto:evandroms89@gmail.com" target="_blank">
-                < SiGmail />
+              <a href="https://wa.me/5511980129404" target="_blank" >
+                < BsWhatsapp className="btn--whats"/>
               </a>
-              <a href="https://wa.me/5511980129404" target="_blank">
-                < BsWhatsapp />
+              <a href="mailto:evandroms89@gmail.com" target="_blank" >
+                < SiGmail className="btn--gmail"/>
               </a>
             </div>
         </section>

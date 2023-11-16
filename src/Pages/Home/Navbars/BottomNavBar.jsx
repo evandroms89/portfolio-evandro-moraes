@@ -7,7 +7,7 @@ import{GiSkills} from "react-icons/gi"
 import{HiMiniComputerDesktop} from "react-icons/hi2"
 import{BiSolidMessageAltDetail} from "react-icons/bi"
 
-function BottomNavBar() {
+function BottomNavBar({closeNewProject}) {
     
     const [isActive, setIsActive] = useState(false);
     const [buttonActive, setButtonActive] = useState("home");
@@ -45,6 +45,7 @@ function BottomNavBar() {
     return (
         <div className="bottom-nav-bar">
                         <Link
+                        onClick={closeNewProject}
                         smooth={true}
                         offset={0}
                         duration={500}
@@ -54,6 +55,7 @@ function BottomNavBar() {
                         <AiFillHome />
                         </Link>
                         <Link
+                        onClick={closeNewProject}
                         smooth={true}
                         offset={0}
                         duration={500}
@@ -63,6 +65,7 @@ function BottomNavBar() {
                         <GiSkills />
                         </Link>
                         <Link
+                        onClick={closeNewProject}
                         smooth={true}
                         offset={-90}
                         duration={500}
@@ -72,6 +75,7 @@ function BottomNavBar() {
                         <BsFillPersonFill />
                         </Link>
                         <Link
+                        onClick={closeNewProject}
                         smooth={true}
                         offset={-30}
                         duration={500}
@@ -81,6 +85,7 @@ function BottomNavBar() {
                         <HiMiniComputerDesktop />
                         </Link>
                         <Link
+                        onClick={closeNewProject}
                         smooth={true}
                         offset={-20}
                         duration={500}
