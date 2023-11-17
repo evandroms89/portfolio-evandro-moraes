@@ -12,8 +12,7 @@ function Navbar({closeNewProject}) {
         <ul>
           <li>
             <Link
-              activeClass="navbar--active-content"
-              spy={true}
+              onClick={closeNewProject}
               smooth={true}
               offset={-40}
               duration={500}
@@ -25,8 +24,7 @@ function Navbar({closeNewProject}) {
           </li>
           <li>
             <Link
-              activeClass="navbar--active-content"
-              spy={true}
+              onClick={closeNewProject}
               smooth={true}
               offset={-40}
               duration={500}
@@ -38,8 +36,7 @@ function Navbar({closeNewProject}) {
           </li>
           <li>
             <Link
-              activeClass="navbar--active-content"
-              spy={true}
+              onClick={closeNewProject}
               smooth={true}
               offset={-30}
               duration={500}
@@ -51,9 +48,7 @@ function Navbar({closeNewProject}) {
           </li>
           <li>
             <Link
-            onClick={closeNewProject}
-              activeClass="navbar--active-content"
-              spy={true}
+              onClick={closeNewProject}
               smooth={true}
               offset={-20}
               duration={500}
@@ -66,6 +61,7 @@ function Navbar({closeNewProject}) {
         </ul>
       </div>
       <Link
+        onClick={closeNewProject}
         activeClass="navbar--active-content"
         smooth={true}
         offset={-60}

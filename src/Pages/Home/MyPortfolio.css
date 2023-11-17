@@ -102,6 +102,12 @@
     align-self: center;
     padding: 15px 0px 0px 0px;
   }
+  .portfolio--project--btn--container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .portfolio--project--btns span{
     font-size: 0.95rem;
     color: var(--halfDarkColor);
@@ -112,6 +118,9 @@
     line-height: 0.5rem;
     cursor: pointer;
     transition: all 0.2s;
+  }
+  .portfolio--project--btn-close span{
+    padding-top: 0.25rem;
   }
   .portfolio--project--btn-close:hover {
     color: var(--red);
@@ -177,9 +186,9 @@
     .portfolio--project--slider{
       padding: 2rem 0rem 2rem 0rem;
       margin: 0px auto;
-      border: 2px solid var(--blue);
+      border: 1.5px solid var(--blue);
       background-color: var(--darkColor);
-      border-radius: 20px;
+      border-radius: 30px;
       width: 85%;
     }
     .portfolio--project--text {

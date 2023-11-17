@@ -3,6 +3,7 @@ import data from "../../data/index.json";
 
 import { useState } from "react";
 import{BsFillArrowLeftSquareFill,BsFillArrowUpRightSquareFill} from "react-icons/bs"
+import{BsGithub} from "react-icons/bs"
 import { Link } from "react-scroll";
 import AnimatedPage from "./Effects/AnimatedPage";
 
@@ -117,14 +118,28 @@ export default function MyPortfolio({portfolioContainer, newProject, projectId, 
                         to="MyPortfolio"
                         className="portfolio--project--btn-close"
                   >
-                    <BsFillArrowLeftSquareFill /><br></br><span>voltar</span>
+                        <div className="portfolio--project--btn--container">
+                          <BsFillArrowLeftSquareFill /><span>voltar</span>
+                        </div>
                   </Link>
                 </div>
                 {data.projects.map((item,index) => (
                   item.id == projectId &&
                     <div key={index} className="portfolio--project--btn--site">
+                      <a href={item.link2} target="_blank">
+                       <div className="portfolio--project--btn--container">
+                          <BsGithub /><span>código</span>
+                        </div>
+                      </a>
+                    </div>
+                ))}
+                {data.projects.map((item,index) => (
+                  item.id == projectId &&
+                    <div key={index} className="portfolio--project--btn--site">
                       <a href={item.link} target="_blank">
-                        <BsFillArrowUpRightSquareFill /><br></br><span>abrir</span>
+                        <div className="portfolio--project--btn--container">
+                          <BsFillArrowUpRightSquareFill /><span>abrir</span>
+                        </div>
                       </a>
                     </div>
                 ))}

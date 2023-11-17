@@ -4,43 +4,49 @@
       "id": "1",
       "title": "Perfil GitHub",
       "description": "Projeto desenvolvido como atividade do curso de Desenvolvimento Front-End da escola EBAC. Consiste em uma página que resgata dados da API do GitHub, trazendo informações sobre os repositórios e imagem de perfil do usuário.",
-      "tech": ["HTML / CSS / Responsivo", "JavaScript", "React"],
-      "link": "https://github-perfil-evandroms89.vercel.app/"
+      "tech": ["HTML / CSS / Responsivo", "JavaScript / dados via API", "React"],
+      "link": "https://github-perfil-evandroms89.vercel.app/",
+      "link2": "https://github.com/evandroms89/github_perfil"
     },
     {
       "id": "2",
       "title": "Photo Studios",
       "description": "Projeto desenvolvido como atividade do curso de Desenvolvimento Front-End da escola EBAC. Consiste em uma Landing Page para divulgar uma empresa fictícia de estúdios fotográficos.",
       "tech": ["HTML", "CSS", "Bootstrap / Responsivo", "JavaScript"],
-      "link": "https://photostudios-projeto3.vercel.app/"
+      "link": "https://photostudios-projeto3.vercel.app/",
+      "link2": "https://github.com/evandroms89/photostudios-projeto3"
     },
     {
       "id": "3",
       "title": "Into The Wild - Landing Page",
       "description": "Projeto desenvolvido como atividade do curso de Desenvolvimento Front-End da escola EBAC. Consiste em uma Landing Page sobre o filme Into The Wild, apresentando sua sinopse, elenco e trilha sonora.",
       "tech": ["HTML", "SASS / CSS / Responsivo", "JavaScript / Gulp"],
-      "link": "https://exercicio-landing-page-into-the-wild.vercel.app/"
+      "link": "https://exercicio-landing-page-into-the-wild.vercel.app/",
+      "link2": "https://github.com/evandroms89/exercicio_projeto_4_landing_page"
     },
     {
       "id": "4",
       "title": "Tech Talks",
       "description": "Projeto desenvolvido como atividade do curso de Desenvolvimento Front-End da escola EBAC. Consiste em uma Landing Page para divulgar um evento fictício de tecnologia, com uma contagem regressiva até a data do mesmo.",
       "tech":["HTML","SASS / CSS / Responsivo","JavaScript"],
-      "link": "https://ebac-tech-talks-topaz.vercel.app/"
+      "link": "https://ebac-tech-talks-topaz.vercel.app/",
+      "link2": "https://github.com/evandroms89/ebac_tech_talks"
     },
     {
       "id": "5",
       "title": "Secret Word",
       "description": "Projeto desenvolvido no curso de React da escola Hora de Codar, pela plataforma Udemy. Consiste em um jogo de adivinhação de palavras, digitando letra por letra e contabilizando pontos.",
       "tech":["HTML","CSS / Responsivo","React"],
-      "link": "https://secret-word-game-sand.vercel.app/"
+      "link": "https://secret-word-game-sand.vercel.app/",
+      "link2": "https://github.com/evandroms89/secret-word-game"
     },
     {
       "id": "6",
       "title": "Portfolio - Evandro Moraes",
       "description": "Este portfolio que você está navegando também foi um projeto desenvolvido por mim. Minha ideia foi manter o padrão de Landing Page, com navegação simples, intuitiva e agradável para uma apresentação objetiva do meu trabalho.",
-      "tech":["HTML / CSS / Responsivo", "JavaScript", "React"],
-      "link": "https://portfolio-evandro-moraes.vercel.app/"
+      "tech":["HTML / CSS / Responsivo", "JavaScript / dados via JSON", "React"],
+      "link": "https://portfolio-evandro-moraes.vercel.app/",
+      "link2": "https://github.com/evandroms89/portfolio-evandro-moraes"
     }
   ]
 }
