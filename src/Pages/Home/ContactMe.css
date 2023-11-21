@@ -206,3 +206,31 @@
       padding-bottom: 18rem;
     }
   }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .contact--section {
+      grid-template-columns: 1fr;
+      padding: 70px 0px 70px 0px;;
+    }
+
+    .contact--form--container {
+      border-right: none;
+      border-bottom: 4px double var(--mediumColor);
+      padding-bottom: 3rem;
+    }
+
+    .contact--icons{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 3rem 0rem 0rem 0rem;
+    }
+    .contact--icons a:hover {
+      transform: scale(1)
+    }
+  }
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    .contact--icons a:hover {
+      transform: scale(1)
+    }
+  }

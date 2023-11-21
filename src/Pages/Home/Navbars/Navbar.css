@@ -50,6 +50,7 @@
     padding-bottom: 4px;
     border-bottom: 4px double var(--mediumColor);
   }
+
   @media only screen and (max-width: 700px) {
     .navbar {
       display: block;
@@ -68,6 +69,69 @@
       padding: 10px 0px 10px 0px;
       font-size: 26px;
       text-align: center;
+      border: none;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .navbar {
+      padding: 1.7rem 2.8rem;
+    }
+  
+    .navbar--items > ul {
+      gap: 1.5rem;
+      text-decoration: none;
+      padding-right: 30px;
+    }
+
+    .navbar--content {
+      color: var(--blue);
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      cursor: pointer;
+    }
+
+    .logo {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: bold;
+      color: var(--yellow);
+      font-size: 1.1rem;
+      padding-bottom: 4px;
+      border-bottom: 4px double var(--mediumColor);
+    }
+
+    .navbar--items ul > li > a:hover {
+      color: var(--blue);
+      border: none;
+    }
+  }
+
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    .navbar {
+      padding: 2.2rem 2.8rem;
+    }
+  
+    .navbar--items > ul {
+      gap: 2.2rem;
+    }
+
+    .navbar--content {
+      color: var(--blue);
+      font-size: 1.3rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      cursor: pointer;
+    }
+
+    .logo {
+      font-size: 1.7rem;
+    }
+
+    .navbar--items ul > li > a:hover {
+      color: var(--blue);
       border: none;
     }
   }
