@@ -126,11 +126,16 @@
     }
   
     .skills--section--container {
-      display: grid;
+      display: flex;
       justify-content: center;
       align-items: center;
+      flex-wrap: wrap;
       gap: 30px;
-      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .skills--section--card {
+      min-width: 15rem;
+      max-width: 17rem;
     }
 
     .skills--section--title {
