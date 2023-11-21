@@ -127,7 +127,7 @@
     .contact--section {
       display: flex;
       flex-direction: column-reverse;
-      padding: 80px 0px 100px 0px;
+      padding: 80px 0px 40px 0px;
     }
 
     .contact--form--text {
